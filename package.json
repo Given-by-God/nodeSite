@@ -1,0 +1,23 @@
+{
+  "name": "bogdan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "joi": "^13.1.2",
+    "lodash": "^4.17.5",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}

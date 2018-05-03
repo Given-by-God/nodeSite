@@ -1,0 +1,6699 @@
+*{
+    /* border:1px solid red; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.versus{/* display:inline-block; */}
+.memesArticle{width:100%}
+.memesTitle{
+    margin: 1%;
+}
+.eventFilter{
+    background: white !important;
+}
+
+.imgOfEachCardNews img{
+    width:  100%;
+}
+
+.eventFilter .btn-primary{
+    background: #31498e;
+    border:#31498e;
+}
+
+
+.schedule .btn{margin-left:1%;}
+.blEachNews{
+    /* flex: 1 1 25%; */
+    width: 23%;
+    margin:  1%;
+    min-width:  216px;
+}
+
+.containerEachNews{
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    width:  100%;
+}
+
+.imgOfEachCardNews{
+    /* width:  100%; */
+}
+
+.textOfEachCardNews{}
+
+.firstImg img{
+    position: relative !important;
+    left: -2px !important;
+}
+.secondImg img{
+    position: relative !important;
+    left: 2px !important;
+}
+.fightersBlock{border-collapse:  unset;border-spacing: unset;}
+.blockWithFight ul img{
+    /* flex: 1 1 50%; */
+    position:  relative;
+    left: 0px;
+    width: 72px;
+    border:  unset;
+    padding:  0;
+    height: 72px;
+    /* top: 12px; */
+    /* position: relative; */
+    /* margin: 24px 0 24px 0; */
+}
+.blockWithFight ul li{/* position: relative; */background: #cecece;/* z-index: 1; *//* width: 30%; */margin-bottom: 1%;/* border:  1px solid white; *//* flex: 1 1 30%; *//* flex-flow: row wrap; *//* justify-content: space-around; */}
+.blockWithFight ul img:last-child{
+    /* margin-left:1%; */
+}
+.nameFirstFighter{/* position:absolute; *//* top:0; *//* text-align:  center; *//* width:  100%; *//* z-index:  2; *//* margin:  0; */background: black;color: white;font-size:  15px;/* padding:  0; */}
+.nameSecondFighter{position:absolute;bottom:0;background:  black;width:  100%;text-align:  center;color:  white;}
+
+.memesMain{
+    display:  flex;
+    margin-left:  1%;
+    flex-flow:  column;
+    text-align: center;
+    /* width: 38%; */
+    margin: 1%;
+    padding-bottom:  1%;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.memesImg img{width: 72%;}
+.lineArticle img{width:  100%;height:  100%;}
+.lineText{
+    display: table;
+
+    width: 63%;
+    margin: 0 1% 2% 3%;
+}
+.lineImg{
+    float:  left;
+    width: 33%;
+    height: 170px;
+    margin:  0 auto;
+}
+
+.rightNameOfHotNews ul li span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+.dataOnMain{
+    float:  left;
+}
+
+.rowCount span{
+
+}
+.textOfTopArticles span{
+
+
+}
+
+table.main{
+
+}
+
+.bellatorImg{
+    margin-top: 0px !important;
+}
+
+.mainTwoImg img{
+    /* height:  100%; */
+    /* width: 187px; */
+}
+
+.blueLine{background:#374593;color:  white;}
+
+.leftImgBig{/* background:#d2d2d2; */}
+
+.rightImgBig{background:#d1d1d1;}
+
+.main tr{
+    border-top:1px solid black;
+}
+
+
+.bellatorImg .leftBellatorImg img{
+    left: 17px;
+    top: 20px;
+    width: 147px;
+}
+
+.bellatorImg .rightBellatorImg img{
+    left: -25px;
+    top: 18px;
+    width: 219px;
+}
+
+
+
+.mainCardBellator{
+    display:  flex;
+    flex-flow:  row wrap;
+    clear: both;
+
+}
+
+.losesFight .countFight{
+    background:  red;
+}
+
+.graph{
+    background:  green;
+    color:  white;
+    text-align:  center;
+
+}
+
+.twoTable{
+    /* width: 100%; */
+    /* clear:  both; */
+    /* display:  flex; */
+}
+
+.loses .rowCount{
+    color:red;
+}
+.loses .countFight{
+    background:red;
+
+}
+
+table{
+    width: 100%;
+    margin-top: 0;
+    text-align:  center;
+
+    font-size:  18px;
+    color: #131313;
+    background: #ffffff;
+    border-collapse:  separate;
+    border-spacing:  0px 8px;
+}
+
+.historyOfFightsTable tr{
+
+}
+.historyOfFightsTable tr th{
+    background: #274376;
+    border: 1px solid white;
+    height:  52px;
+    text-align:  center;
+    color: white;
+}
+.historyOfFightsTable tr td{
+    border:  1px solid white;
+    height: 75px;
+}
+
+
+.winsFight, .losesFight{/* border-spacing: 5px 1rem; *//* border-collapse: separate; */}
+
+.loses{
+}
+
+.percent{
+
+
+}
+.rowCount{
+    margin-bottom: 1%;
+}
+.countFight{
+    background:green;
+    color:white;
+    width: 12%;
+
+    text-align:  center;
+
+}
+
+.wins{
+    flex-flow: column wrap;
+    display:  flex;
+    flex: 1 1 50%;
+    color:  green;
+}
+
+.blGrid1 .gridText{
+    position:  absolute;
+    bottom:  0;
+    width: 100%;
+
+
+    z-index: 1;
+}
+
+.blGrid1 .gridText a{
+
+
+    color: #ffb708;
+
+    font-size:  24px;
+    font-weight:  600;
+}
+
+
+.nameOfVideo h2 a{
+    color:white;
+}
+.blGrid7 .gridImg,.blGrid8 .gridImg{
+
+
+}
+
+.nameOfVideo h2 a:hover
+{
+    color:#c3c3c3;
+}
+.onlyNewsRightMenu{
+    /* width: 29%; */
+    /* margin-right: 1%; */
+    /* border: 15px solid #25374a; */
+    /* background: #25374a; */
+    /* color: white; */
+    /* overflow: hidden; */
+}
+
+
+.centerBlock{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nameOfAsideRight{
+
+
+    border-bottom:  1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 18px;
+    text-align:  center;
+    text-transform:  uppercase;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+
+h2{
+    font-size: 1.1rem;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+
+}
+
+a:hover{
+    color:#732335;
+    text-decoration:none;
+}
+
+
+.blockOnDetailPageImg {
+    flex: 1 1 50%;
+}
+.blockOnDetailPageText{
+    text-align:center;
+
+}
+
+.blockOnDetailPage{
+    display:flex;
+    flex-flow:  column;
+    flex-basis:  30%;
+    min-width:  178px;
+
+}
+
+ul{
+    margin: 0 !important;
+}
+
+
+.video{
+    display:  flex;
+    flex-flow: column nowrap;
+    justify-content:  center;
+
+
+    margin-bottom: 11px;
+}
+
+.videoImg img{
+    width:  100%;
+}
+
+.nameOfVideo{
+
+
+}
+
+.textOnMainArticle:hover{
+
+
+}
+.month{
+    background: #4242bb;
+    color: white;
+}
+
+.rightMenu div{
+
+
+
+
+
+
+
+}
+.rightMenu div:hover{background: #25344a;color: white;cursor:pointer;}
+
+
+.nameOfCalendar span:hover{
+
+
+}
+
+.nameOfCalendar span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+
+aside{
+    /* margin: 2% 1% 4% 1%; */
+    /* float: right; */
+    /* width: 29%; */
+    /* overflow:  scroll; */
+    /* overflow-x: hidden; */
+}
+.scrollRightMenu{
+
+
+
+
+
+}
+
+.bestOfTheWeek{margin: 2% 0 2% 0;border-bottom: 1px solid; overflow:  hidden;padding-bottom: 4px;}
+
+.coutOfArticle img{
+    width: 100%;
+    height: 100px;
+}
+
+
+.coutOfArticle{float:  left;display:  inline-block;width: 43%; margin-right: 1%;}
+
+
+.textOfTopArticles span:hover{
+
+
+}
+
+.nameOfCalendar{
+
+
+
+
+    padding: 0 5%;
+    margin:  0 auto;
+    flex: 1 1 80%;
+    display:  flex;
+    align-items:  center;
+
+    justify-content:  center;
+}
+
+.numberOfMonth{
+    font-size: 28px;
+    border-bottom: 1px solid;
+
+}
+
+
+.calendarData{
+
+
+
+
+    border:  1px solid blue;
+    text-align:  center;
+    margin-left: 1%;
+    flex: 1 1 20%;
+    height: 101px;
+}
+
+.calendarData ul li{}
+
+.calendar{
+    width:  100%;
+
+    border-bottom: 1px solid;
+    padding: 2px 0;
+
+    margin-bottom: 6px;
+    display:  flex;
+}
+
+
+
+.rightMenu{
+    display:  flex;
+    justify-content:  space-between;
+}
+.rightMenu ul li:hover{background: #323581;color:  white;}
+
+.rightMenu ul li{
+    float:  left;
+    width: 45%;
+
+
+    font-size:  23px;
+    text-align:  center;
+    cursor:  pointer;
+
+    border: 1px solid black;
+
+}
+
+.newsByFighter{
+    width: 100% !important;
+}
+
+.blGrid1 .gridText a:hover{
+    color: white;
+}
+
+.boldDetail{
+    font-weight:600;
+}
+
+.dark{
+    color:#8c8c8c;
+}
+
+.titleCommon {
+    text-align: center;
+
+
+
+    width:100%;
+    margin:  0 auto;
+    background: #162951;
+}
+
+.titleCommon span{
+    text-align: center;
+    margin: 1%;
+    color:white;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+
+
+.textOfTopArticles {
+    float: left;
+    display: table;
+    width: 56%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textOfTopArticles span{   }
+
+.textOfTopArticles span:hover{
+
+
+}
+.data{float: left;margin: 1%; display:  inline-block; color: #721c24;}
+
+.tag{
+    display:  inline-block;
+    float: right;
+
+    margin: 1%;
+    background: #473ac2;
+    color: white;
+}
+
+body{
+
+}
+
+
+@media  only screen and (max-width : 560px) {
+    .filterFlex{flex-flow: row wrap !important;  }
+
+}
+
+@media  only screen and (max-width : 880px) {
+    .bottomArticle {
+        max-width: 100% !important;
+    }
+}
+
+.mainTwoImg .earlyPrelimsName{
+    width: 100%;
+    margin-top: 1%;
+}
+
+@media  only screen and (max-width : 550px) {
+    .twoTable{flex-flow:column;}
+}
+
+
+.insideMainBlockForBellator{
+
+    margin: 1% 0;
+    background: #3d3d3d;
+}
+
+.bottomArticle{
+    display:  flex;
+    flex-flow: row wrap;
+
+
+}
+.articleOnMain{
+
+
+
+
+
+
+
+}
+.imageOnMainArticle img{
+    width: 216px;
+    height: 120px;
+}
+
+
+@media  only screen and (max-width : 880px) {
+    .textOnMainArticle{
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0 0 0 7px !important;
+    }
+}
+
+.text{
+    margin:  6px;
+    padding:  1px;
+
+}
+.textOnMainArticle{
+    flex: 2 1 100px;
+    margin: 0 10px;
+}
+
+
+.imageOnMainArticle{ min-width: 120px;}
+@media  only screen and (max-width : 560px) {
+    .filterFlex{flex-flow: row wrap !important;  }
+
+}
+
+.insideFilterBlock:hover{
+    /* background: #473ac2; */
+    /* color:white; */
+    /* cursor:  pointer; */
+}
+.insideFilterBlock{/* text-align:  center; *//* padding: 5px; *//* display: table; *//* border-radius: 4px; */}
+.insideFilterBlock select{
+    text-transform: uppercase;
+}
+
+.filter{
+    overflow:  hidden;
+    margin: 0 auto;
+    background: #7badff;
+    text-transform:  uppercase;
+    color: black;
+}
+.filter ul li{
+    float:  left;
+    margin: 1% 2%;
+
+    padding: 1%;
+    cursor:  pointer;
+
+}
+.filter ul li:hover{
+    background: #2a2396;
+    color: white;
+}
+
+.filterFlex{
+    display:  flex;
+    flex-flow:  row nowrap;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.widget>nav{
+    margin:0 0 0 20px;
+}
+
+.nameOfFilter{
+    text-align:  center;
+    margin: 1%;
+}
+
+.widget{
+    width: 98%;
+    margin: 2% auto 3% auto;
+}
+
+.search{
+    color: #b9b9b9;
+    font-size: 0.75em;
+    padding: 15px 20px;
+    border:1px solid #b0e1ef;
+    width: 100%;
+    margin:  0 auto;
+}
+
+
+.widget h2{
+    text-transform: uppercase;
+    background: #f8f8f8;
+    border-left: 3px solid green;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.dataAndTagMain{
+    overflow:hidden;
+}
+.center-block-main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.promotions {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin:  2% 0;
+}
+
+.cls{
+    clear: both;
+}
+
+.mainBlock{
+    /* overflow:  hidden; */
+    /* position:  relative; */
+    /* margin-left: 1%; */
+}
+
+.rightMenu ul li:first-child{
+    width: 52%;
+}
+
+
+.blGrid1 .gridImg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+
+
+
+
+}
+
+.calendar:first-child{
+    border-top:1px solid black;
+}
+.darkedImg{
+    position:relative;
+    height:  100%;
+}
+
+.darkedImg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 0;
+    background-image: linear-gradient(to bottom, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
+}
+
+.text:hover{
+    color:#4c30ce;
+    cursor:pointer;
+}
+
+
+.fightStat{
+    clear:  both;
+    display:  flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.commonBlock{
+    /* margin: 4% auto 2% auto; */
+    /* max-width: 1048px; */
+    /* overflow:  hidden; */
+}
+
+.main tr th{
+    text-align:center;
+}
+.lineData{
+    float:  left;
+
+    padding:  0;
+    margin:  0;
+}
+
+.linksOfStream{
+    display:  flex;
+    justify-content:  space-around;
+    width: 65%;
+    margin: 2%;
+}
+
+.bellatorImg li{
+    height: 173px !important;
+    width: 18% !important;
+}
+.prelimsBellator li{
+    width: 12% !important;
+    height: 135px !important;
+}
+
+@media  only screen and (max-width : 880px) {
+
+
+    aside{
+        display: none !important;
+    }
+    main{
+        width: 100%!important;
+    }
+    .textOfArticle{
+        width: 70%;
+    }
+    .mainBlock{
+        margin:0 auto !important;
+    }
+
+
+
+}
+
+.gridImg{
+
+
+    flex: 1 1 50%;
+
+}
+
+.blGrid8 .gridImg{
+
+    order: 1;
+}
+
+
+.blGrid1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    position:  relative;
+}
+
+
+@media only screen and (max-width: 820px){
+    .blGrid7,.blGrid8{
+
+        flex-flow:  column;
+    }
+    .blGrid8 .gridImg{
+
+    }
+    .blGrid3{
+        display:  none;
+    }
+
+}
+
+.blGrid7 img,.blGrid8 img{
+
+}
+
+.blGrid7 .gridText,.blGrid8 .gridText{
+
+}
+
+.blGrid7,.blGrid8{
+    display:  flex;
+    flex-flow: row nowrap;
+    align-items:  center;
+}
+
+
+
+
+
+
+
+.nameOfCalendar{
+    flex:1 1 80%;
+}
+
+.blGrid6{
+    grid-column: span 2;
+    height:  auto;
+}
+
+.blGrid6 img{
+
+
+
+    height: 238px;
+}
+
+.blGrid7{
+    grid-column:  span 2;
+
+    background: #772f40;
+}
+.blGrid8{
+    grid-column: span 2;
+    background:  #f9b041;
+}
+
+
+
+.nameOfCalendar h2{
+
+}
+
+
+.nameOfCalendar {
+
+}
+
+.grid{
+    /* display:  grid; */
+    /* grid-template-columns: repeat(4,1fr); */
+}
+
+.gridItem{
+    border: 1px solid #e7e7e7;
+}
+
+.gridImg img{
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.gridText{flex: 1 1 50%;padding:  1% 4%;}
+.gridText h2{}
+.gridText h2 a{}
+
+
+@media  only screen and (max-width : 820px) {
+    .bl{
+        flex: 1 1 48% !important;
+    }
+    .bl1{   }
+
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gridItem{
+        grid-column: span 1;
+    }
+
+    .blGrid6 img{height:auto}
+    .blGrid1{
+        grid-row: 1/2;
+    }
+}
+
+
+@media  only screen and (max-width : 540px) {
+    .bl{
+        min-width: 100% !important;
+    }
+    .bl1{   }
+}
+
+.bl4{
+
+
+}
+.bl5{
+
+}
+
+.bl1{
+    flex: 1 1 51% !important;
+}
+
+.nameOfHotNews :hover{
+    cursor:pointer;
+    color: #2a2396;
+}
+
+.allTextOnMainMiddleBlock{
+    margin:0 1%;
+    padding: 2%;
+}
+
+@media  only screen and (max-width : 1025px) {
+    .rightTopBlocks{
+
+
+    }
+    .hotNews{
+
+
+    }
+}
+
+
+
+
+.rightTopBlockText span{
+    display:  table-cell;
+
+    font-size: 18px;
+    font-family: "Torque Web Medium",Helvetica, sans-serif;
+
+
+}
+
+.rightTopBlockText span:hover{
+    color: #2a2396;
+    cursor:pointer;
+}
+@media  only screen and (max-width : 650px) {
+    .newsSpecialPage{
+        margin:10% auto !important
+    }
+}
+
+
+
+
+@media  only screen and (max-width : 620px) {
+
+    .grid{
+        display:  flex;
+        flex-flow: row wrap;
+    }
+    .gridItem{color:white;display:  flex;}
+
+    .blGrid7,.blGrid8{
+        grid-column: span 2 !important;
+        flex-flow:  row;
+        width: 100%;
+    }
+
+
+
+
+    .blGrid1{
+        grid-column:span 2;
+    }
+
+
+
+    main{
+        width: 100%!important;
+    }
+    .lineTextArticle{
+        margin:0 auto;
+        width:90%;
+    }
+    .textOfArticle{
+        width: 70%;
+        margin:0 auto;
+    }
+    .lineImg{
+
+
+
+
+
+    }
+    .lineText{
+
+
+
+        margin: 0 auto !important;
+    }
+
+    .blGrid7 .gridImg, .blGrid8 .gridImg {
+        width: auto !important;
+        height: auto !important;
+        order: 0;
+    }
+
+
+}
+
+hr{
+    margin-bottom: 1rem ;
+    border: 11px solid #25324b !important;
+    padding: 0 !important;
+}
+.rightFloatingBlock h2{
+    font-size:20px
+}
+
+
+@media  only screen and (max-width : 500px) {
+    .lineImg{
+        width: 77% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 269px !important;
+    }
+    .lineText{
+        width: 78% !important;
+        float:none;
+        clear:both;
+    }
+}
+
+.lineTextArticle span{
+    display:table-cell;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: left;
+    font-size:  20px;
+
+}
+
+
+
+.lineTextArticle span:hover{
+    color: #2a2396;
+    cursor:pointer;
+}
+
+.textOfArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textForBlockArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+.rightNameOfHotNews ul li:hover{
+    background: #88acff;
+    color:white;
+}
+
+
+@media  only screen and (max-width : 740px) {
+    .textOfArticle{
+        width: 94% !important;
+    }
+}
+
+.mainContent{
+    /* background:white; */
+}
+
+.tagAnfDataOnMain{
+    width:  100%;
+
+    float:  left;
+}
+.mainBlock{/* width: 100%; *//* float:  right; *//* background: #ffffff!important; *//* overflow:  hidden; */}
+
+
+.main .block{
+    float:left;
+}
+
+main{
+    /* float:left; */
+    /* width: 67%; */
+    /* margin-top: 2%; */
+    /* background: #ffffff; */
+}
+
+
+.textOfTopArticles{
+    position:  relative;
+    margin-left: 0;
+    padding-right: 1px;
+    display:  table;
+    text-align:  center;
+    height:  100px;
+    width: 56%;
+}
+
+.coutOfViews{
+    float:  left;
+    position:  relative;
+    top: 11px;
+}
+
+.statOfArticle{
+    overflow: hidden;
+}
+
+.textOfArticle ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+.imgOfViews{
+    float:  left;
+    margin: 9px 3px 0 17%;
+}
+
+.textOfArticle h2{
+    margin: 7% 0 3% 0;
+}
+
+
+.textOfArticle{margin: 3% auto;width: 85%;position:  relative;}
+
+.imgOfArticle{
+
+    position:  relative;
+
+}
+
+
+a.more{
+    color: #c2c2c2;
+    border:2px solid #c2c2c2;
+    padding: 7px 20px;
+    display: inline-block;
+
+
+}
+
+
+.icons{
+    height: 20px;
+}
+
+.coutOfCommentsAndViews{
+    display: inline-block;
+    bottom: 3px;
+    position: relative;
+}
+
+.views{
+    position: relative;
+    left: 5px;
+}
+
+.themeOfArticle{
+    position:  relative;
+    top: 0;
+    left:  16px;
+    border: 1px solid black;
+}
+
+.div-subscribe{
+    position: relative;
+    width: 100%;
+}
+
+.rightNameOfHotNews ul li:last-child{
+    border:none;
+}
+
+.newsImg{width: 86%;height: 400px;margin: 2% auto;}
+
+.newsImg img{width: 100%;height: 100%;*margin-bottom: 6px; }
+
+.clr{
+    clear:both;
+}
+
+
+.pager{
+    overflow: hidden;
+    border:1px solid #e1e1e0;
+    font-size:1.24em;
+    width: 70%;
+}
+.pager a{
+    text-decoration: none;
+}
+.pager a:hover{
+    text-decoration: underline;
+}
+
+.previous-link{
+    float: left;
+}
+.next-link{
+    float: right;
+}
+
+
+
+
+
+
+.promotionList{
+    cursor: default !important;
+
+
+}
+.promotionList select{
+    width: 100%;
+    margin: 0% 0% 0 0%;
+    text-transform:  uppercase;
+}
+
+
+.hotNews{
+    overflow:  hidden;
+    margin:  1% auto;
+    width: 46%;
+    border-right: 1px solid #979797;
+    background: #ffffff;
+    float:  left;
+    margin: 1% 0 1% 1%;
+    position:  relative;
+    top: 0px;
+
+}
+
+.hotNews img{
+    float:  left;
+    width: 100%;
+    height: 360px;
+}
+
+.nameOfHotNews{
+
+
+    width: 100%;
+    height: 89px;
+
+    color: #000000;
+    text-align: justify;
+    font-size:  18px;
+    text-align:  center;
+    display: table;
+}
+
+.nameOfHotNews p{
+    width: 100%;
+    margin: 0% auto;
+    vertical-align:  middle;
+    display: table-cell;
+    color: black;
+    font-size: 22px;
+}
+
+.rightNameOfHotNews {
+    display: table;
+    width: 100%;
+    text-align: justify;
+    margin: 0 0;
+    float:  left;
+
+}
+.rightNameOfHotNews ul li{
+    margin: 0 0;
+    height: 102px;
+    cursor:  pointer;
+    border-right: 1px solid #969696;
+    width: 25%;
+    display:  table;
+
+    float:  left;
+    text-align:  center;
+    font-weight:  600;
+}
+
+.nameOfImgArticle{
+    position:  relative;
+    overflow:  hidden;
+    width: 100%;
+
+    float:  left;
+}
+
+.tagOfHotNews{
+
+    float: right;
+
+    background: #2f00ff;
+
+
+
+    color:  white;
+}
+
+.calendarData ul{
+    margin-bottom:0;
+}
+
+.dataOfHotNews{
+
+
+
+
+
+
+}
+
+@media  only screen and (max-width :1025px) {
+
+    .rightFloatingBlock{
+        display: none;
+    }
+    .mainContent{
+        width:100%;
+    }
+}
+
+.blockNewsTag{
+    background: blue;
+    color: white;
+    float: right;
+    margin: 2%;
+}
+.blockNewsData{
+
+    color: black;
+    float: left;
+    position:  relative;
+
+    margin: 2%;
+}
+
+.rightFloatingBlock{
+    float: left;
+    width: 24%;
+    text-align:  center;
+    margin: 0 0%;
+    background: #e2e2e2;
+    color: #ab0000;
+    padding-left: 14px;
+}
+.rightFloatingBlock ul li{
+    cursor:  pointer;
+    margin: 4% 1% 4% 1%;
+    font-size: 11px;
+    font-weight: 500;
+}
+.rightFloatingBlock iframe{
+    width: 100%;
+    height: 144px;
+}
+
+.blockArticle{
+    width: 46%;
+    float:  left;
+    background: #ffffff;
+    margin: 2% 2%;
+
+}
+
+.blockArticle img{
+
+    width:  100%;
+    height:  100%;
+}
+
+.textForBlockArticle{
+    position:  relative;
+
+    margin-top: -1%;
+    padding: 5px;
+}
+
+.lineArticle{
+
+    margin: 1% auto;
+    overflow:  hidden;
+    background:  white;
+    width: 86%;
+
+}
+
+
+
+.lineTextArticle {
+    clear:  both;
+    top: 0px;
+    margin-top: 0px;
+    position:  relative;
+
+
+    display:  table;
+    text-align:  center;
+
+    margin: 1%;
+}
+
+
+
+.lineTag{
+    float:  right;
+    background:  blue;
+    color:  white;
+    display:  inline-block;
+
+    position:  relative;
+}
+
+
+
+
+
+
+
+
+
+
+.tagOnMain{
+    float:  right;
+    background: #3f00ff;
+    color:  white;
+}
+
+.rightTopBlocks{
+    float:  left;
+    width: 52%;
+    overflow:  hidden;
+    margin-top:  1%;
+}
+
+.rightTopBlock{
+    float:  left;
+    width: 50%;
+
+    border-right: 1px solid #969696;
+    background:  white;
+    height: 452px;
+
+}
+.rightTopBlockImg img{
+    width:  100%;
+    height: 240px;
+}
+.rightTopBlockText{
+    width:  100%;
+
+    display: table;
+
+
+
+}
+
+.hotNewsTop{
+    max-width: 100%;
+    margin:  10px;
+    padding: 10px;
+    display:  flex;
+    flex-flow:  row wrap;
+}
+
+.blGrid7 a:hover,.blGrid8 a:hover{
+    color:white;
+}
+
+.darkedImg a:hover{
+    color:white !important;
+}
+.blGrid7 a,.blGrid8 a{
+    color:white;
+}
+
+.bl{
+    display:  flex;
+    margin: 3px;
+    padding: 3px;
+    flex-flow: column nowrap;
+    flex: 1 1 23%;
+    min-width: 210px;
+    background:  white;
+}
+.images {
+    width:  auto;
+}
+.images img{
+    width:  100%;
+}
+@media  only screen and (max-width : 880px) {
+    aside{
+        display: none !important;
+    }
+    main{
+        width: 98%!important;
+    }
+    .textOfArticle{
+        width: 70%;
+    }
+    .mainBlock{
+        margin:0 auto !important;
+    }
+    article{width:100%}
+}
+
+.topBorder{
+    border-top: 1px solid #dedede;
+}
+
+.articleOnMain{
+
+}
+.textOnDetailNews{
+    border-top: 1px solid #dedede;
+}
+.countReadAlso{
+
+    flex: 1 1 10%;
+    background: #473ac2;
+    color:  white;
+    text-transform:  uppercase;
+    font-size:  24px;
+
+    text-align:  center;
+
+}
+
+
+.rightMenu div{
+
+
+}
+
+
+
+
+.blocksOnDetailPage{display:flex;flex-flow: row wrap;justify-content: space-evenly;}
+
+.mainImgOnDetailNews{
+    margin-bottom: 2%;
+
+
+}
+main img{
+
+
+
+
+}
+
+.newsSpecialPage{
+    /* max-width: 1080px !important; */
+}
+
+.rightFloatingBlock h2 a{
+    color:#000000
+}
+
+.rightFloatingBlock h2 a:hover{
+    text-decoration:none;
+    color:#473ac2;
+}
+
+@media  only screen and (max-width : 650px) {
+    .newsSpecialPage{
+        margin:10% auto !important
+    }
+}
+
+
+
+
+@media  only screen and (max-width : 620px) {
+
+    main{
+        width: 100%!important;
+    }
+    .lineTextArticle{
+        margin:0 auto;
+        width:90%;
+    }
+    .textOfArticle{
+        width: 70%;
+        margin:0 auto;
+    }
+    .lineImg{
+        width: 51% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 237px !important;
+    }
+    .lineText{
+        width: 59% !important;
+        float:none;
+        clear:both;
+    }
+
+}
+
+hr{
+    margin-bottom: 1rem;
+    border: 4px solid #25324b !important;
+    padding: 0 !important;
+}
+.rightFloatingBlock h2{
+    font-size:20px
+}
+
+
+@media  only screen and (max-width : 500px) {
+    .lineImg{
+        width: 77% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 269px !important;
+    }
+    .lineText{
+        width: 78% !important;
+        float:none;
+        clear:both;
+    }
+}
+
+.lineTextArticle span{
+    display:table-cell;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: justify;
+}
+
+
+
+.lineTextArticle span:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textOfArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textForBlockArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+.rightNameOfHotNews ul li:hover{
+    background: #88acff;
+    color:white;
+}
+
+
+@media  only screen and (max-width : 740px) {
+    .textOfArticle{
+        width: 94% !important;
+    }
+}
+
+.mainContent{
+    /* background:white; */
+}
+
+body{
+
+}
+
+.mainBlock{/* width: 100%; *//* float:  right; *//* background: #ffffff!important; *//* overflow:  hidden; */}
+
+
+.main .block{
+    float:left;
+}
+
+main{
+    /* float: left; */
+    /* width: 64%; */
+    /* margin: 2% 1% 1% 1%; */
+    /* background: #ffffff; */
+}
+
+
+.textOfTopArticles{
+    position:  relative;
+    margin-left: 0;
+    padding-right: 1px;
+    display:  table;
+    text-align:  center;
+    height:  100px;
+    width: 56%;
+}
+
+.coutOfViews{
+    float:  left;
+    position:  relative;
+    top: 11px;
+}
+
+.statOfArticle{
+    overflow: hidden;
+}
+
+.textOfArticle ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+.imgOfViews{
+    float:  left;
+    margin: 9px 3px 0 17%;
+}
+
+.textOfArticle h2{
+    margin: 7% 0 3% 0;
+}
+
+
+.textOfArticle{margin: 3% auto;width: 85%;position:  relative;}
+
+.imgOfArticle{
+
+    position:  relative;
+
+}
+
+article>header:hover .publish {
+    bottom: 0;
+}
+
+article>header{
+    position: relative;
+    background: none;
+    margin: 4% 2%;
+    background: #ffffff;
+    overflow:  hidden;
+}
+
+article>h2{
+    font-size: 1.75em;
+    line-height: 1;
+    margin: 0 0 40px 20px;
+    color: #5c5044;
+}
+a.more{
+    color: #c2c2c2;
+    border:2px solid #c2c2c2;
+    padding: 7px 20px;
+    display: inline-block;
+
+
+}
+
+
+
+.icons{
+    height: 20px;
+}
+
+.coutOfCommentsAndViews{
+    display: inline-block;
+    bottom: 3px;
+    position: relative;
+}
+
+.views{
+    position: relative;
+    left: 5px;
+}
+
+.themeOfArticle{
+    position:  relative;
+    top: 0;
+    left:  16px;
+    border: 1px solid black;
+}
+
+.div-subscribe{
+    position: relative;
+    width: 100%;
+}
+
+.rightNameOfHotNews ul li:last-child{
+    border:none;
+}
+
+.newsImg{width: 86%;height: 400px;margin: 2% auto;}
+
+.newsImg img{width: 100%;height: 100%;*margin-bottom: 6px; }
+
+.clr{
+    clear:both;
+}
+
+
+.pager{
+    overflow: hidden;
+    border:1px solid #e1e1e0;
+    font-size:1.24em;
+    width: 70%;
+}
+.pager a{
+    text-decoration: none;
+}
+.pager a:hover{
+    text-decoration: underline;
+}
+
+.previous-link{
+    float: left;
+}
+.next-link{
+    float: right;
+}
+
+
+.data{float: left; display:  inline-block; }
+
+.tag{
+    display:  inline-block;
+    float: right;
+
+
+    background: #603fff;
+    color: white;
+}
+
+
+.promotionList{
+    cursor: default !important;
+
+
+}
+.promotionList select{
+    width: 100%;
+    margin: 0% 0% 0 0%;
+    text-transform:  uppercase;
+}
+
+
+.hotNews{
+    overflow:  hidden;
+    margin:  1% auto;
+    width: 97%;
+    border: 1px solid #565656;
+    background: #e1e1e1;
+}
+
+.hotNews img{
+    float:  left;
+    width: 100%;
+    height: 416px;
+}
+
+.nameOfHotNews{
+    position:  absolute;
+    top: 82%;
+    width: 100%;
+    height: 76px;
+    background: rgba(0, 0, 0, 0.8);
+    color:  white;
+    text-align: justify;
+    font-size:  18px;
+}
+
+.nameOfHotNews p{
+    width: 95%;
+    margin: 1% auto;
+}
+
+.rightNameOfHotNews {
+    display: table;
+    width: 40%;
+    text-align: justify;
+    margin: 0 0;
+    float:  left;
+
+}
+.rightNameOfHotNews ul li{
+    margin: 0 0;
+    height: 83px;
+    cursor:  pointer;
+    border-bottom: 1px solid #565656;
+    width: 100%;
+    display:  table;
+
+    text-align:  center;
+}
+
+.nameOfImgArticle{
+    position:  relative;
+    overflow:  hidden;
+    width:  60%;
+    float:  left;
+}
+
+.tagOfHotNews{
+    display:  inline-block;
+    float: right;
+    margin:  1%;
+    background: #584aff;
+    position:  absolute;
+    bottom: 0;
+    right:  0;
+}
+
+.calendarData ul{
+    margin-bottom:0;
+}
+
+.dataOfHotNews{
+    display:  inline-block;
+    float: left;
+    margin: 1%;
+    position:  absolute;
+    bottom:  0;
+}
+
+
+
+@media  only screen and (max-width :585px) {
+
+
+    .textOnMainArticle h2 {
+        font-size: 0.9rem !important;
+        font-weight: 600;
+    }
+
+
+}
+
+.blockNewsTag{
+    background: blue;
+    color: white;
+    float: right;
+    margin: 2%;
+}
+.blockNewsData{
+
+    color: black;
+    float: left;
+    position:  relative;
+
+    margin: 2%;
+}
+
+.rightFloatingBlock{
+    float: left;
+    width: 21%;
+    text-align:  center;
+    margin: 0 0%;
+    background: #ffffff;
+    color: #ab0000;
+
+    height:  800px;
+    overflow:  scroll;
+    overflow-x: hidden;
+    direction: rtl;
+}
+.rightFloatingBlock ul li{
+
+    margin: 4% 1% 4% 1%;
+    font-size: 11px;
+    font-weight: 500;
+}
+.rightFloatingBlock iframe{
+    width: 100%;
+    height: 130px;
+}
+
+.blockArticle{
+    width: 46%;
+    float:  left;
+    background: #ffffff;
+    margin: 2% 2%;
+
+}
+
+.blockArticle img{
+
+    width:  100%;
+    height:  100%;
+}
+
+.textForBlockArticle{
+    position:  relative;
+
+    margin-top: -1%;
+    padding: 5px;
+}
+
+.lineArticle{
+
+    margin: 2%;
+    overflow:  hidden;
+    background:  white;
+}
+
+
+
+.lineTextArticle {
+    clear:  both;
+    top: 0px;
+    margin-top: 0px;
+    position:  relative;
+
+
+    display:  table;
+    text-align:  center;
+    height:  116px;
+}
+
+
+
+.lineTag{
+    float:  right;
+    background:  blue;
+    color:  white;
+    display:  inline-block;
+
+    position:  relative;
+}
+
+.lineData{
+    float:  left;
+
+    padding:  0;
+    margin:  0;
+}
+
+.onlyNewsRightMenu{
+
+
+
+
+
+
+}
+
+.textOfTopArticles span{
+
+
+}
+.textOfTopArticles span:hover{
+
+
+}
+
+.NewsOnDetailPageRight{
+    display:  flex;
+    flex-flow: row nowrap;
+
+    border-bottom: 1px solid #242e4b;
+    margin-top: 3%;
+
+
+    align-items: center;
+}
+.textOfDetailPage{flex: 1 1 70%;margin-left: 1%;}
+.textOfDetailPage img{}
+.imgOfDetailPage{
+    width: 100%;
+    display:  flex;
+    justify-content:  center;
+
+}
+
+
+.imgOfDetailPage img{
+    width:  100%;
+    height: 100%;
+}
+.lineArticle img{width:  100%;height:  100%;}
+
+.lineText{
+    display: table;
+
+    width: 54.9%;
+    margin:  0 auto;
+    height: 163px;
+}
+.lineImg{
+    float:  left;
+    width: 233px;
+    height: 170px;
+    margin:  0 auto;
+}
+
+.centerBlock .articleOnMain{
+    border-top:none !important;
+}
+
+.asideBlockNewsRight{
+
+    font-size: 18px;
+    color: #000000;
+
+}
+
+article:last-child{
+    border-bottom:unset;
+}
+
+.newNews{
+    text-transform: uppercase;
+}
+
+
+.rightNameOfHotNews ul li span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.nameOfFighterDetail{
+
+    font-size: 38px;
+}
+
+.infoAboutFighterDetail{
+    overflow:  hidden;
+    margin: 1%;
+}
+
+
+.imgOfFighter{
+    float:  left;
+
+
+
+}
+.imgOfFighter img{
+    width: 100%;
+    height:  100%;
+}
+
+.birthAndAge{
+
+
+    float:  left;
+
+}
+.birthAndAge ul li{}
+
+
+
+.age{
+
+
+}
+
+.onlyNewsRightMenu{
+    /* width: 25%; */
+    /* margin-left:  3%; */
+}
+
+.weightHeightCat{
+    float:  left;
+    width: 100%;
+}
+.weightHeightCat ul li{
+    float:  left;
+    margin-left: 6%;
+}
+.weightHeightCat ul li:first-child{
+
+    margin-left: 0;
+}
+
+.weightHeightCat ul li ul li{
+
+    width:  100%;
+    margin-left:  0;
+}
+
+.mainBlock{/* float:  left; *//* width: 68%; */}
+.detailInfo{
+    overflow:  hidden;
+
+    position:  relative;
+    margin: 1% 1% 1% 2%;
+
+
+
+}
+
+.nextFight{}
+
+.nextFight{
+    width: 52%;
+    margin:  0 auto;
+    background: #757575;
+}
+
+.nextFight p{
+    background:  red;
+    color: white;
+    text-align:  center;
+}
+
+.imgNextFight{
+    color:  white;
+}
+.imgNextFight ul li{
+    float:  left;
+    width: 40%;
+
+    text-align: center;
+    cursor:  pointer;
+
+}
+.imgNextFight img{
+    width:  100%;
+    height:  100%;
+    background: #d0d0d0;
+}
+
+.nameOfNextEvent{
+    width: 23%;
+    margin:  0 auto;
+    text-align:  center;
+    background: #2c3f79;
+    color:  white;
+}
+
+.watchAllCard{
+
+    clear:  both;
+    text-align:  center;
+    background: #2c3f79;
+    color: white;
+    width: 25%;
+    margin: 1% auto;
+    cursor:  pointer;
+}
+
+.versusDetail{width: 20% !important;position:  relative;text-transform:  uppercase;font-size: 35px;top: 55px;}
+
+.nextFightName{
+    margin: 5% auto;
+    background: #2f3a7d;
+    text-align:  center;
+    color: white;
+    font-size:  22px;
+    text-transform:  uppercase;
+}
+
+.imgNextFight ul li ul li{
+    clear:  both;
+    width: 100%;
+    margin-top:  2%;
+}
+
+.specialBlockForDetailPage{
+    max-width: 1080px;
+    overflow: hidden;
+    background: white;
+    margin: 8% auto;
+}
+
+
+.historyOfFightsName{
+
+}
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .mainBlock{
+        width:100%;
+    }
+    .specialBlockForDetailPage{
+        margin: 0 auto !important;
+    }
+
+}
+
+@media  only screen and (max-width : 588px) {
+    .imgOfFighter {
+        float: none;
+        margin: 0 auto;
+        width:  174px;
+    }
+    .detailInfo {
+        overflow: hidden;
+        position: relative;
+        width: 327px;
+        margin:  0 auto;
+    }
+}
+
+.watchAllCard:hover{
+    background:#4f5cab
+}
+.imgNextFight>ul>li{
+    border:1px solid #757575
+}
+
+.imgNextFight>ul>li:hover{
+    border:1px solid #2f3a7d
+}
+
+.versusDetail{
+    border:1px solid #757575 !important;
+    cursor:default;
+
+}
+
+.versusDetail:hover{
+    border:1px solid #757575;
+    cursor:default;
+
+}
+
+@media  only screen and (max-width :759px) {
+    .versusDetail {
+        top: 0;
+    }
+    .watchAllCard {
+        width: 100%;
+    }
+}
+@media  only screen and (max-width :514px) {
+    .versusDetail {
+        font-size: 23px !important;
+    }
+    .watchAllCard {
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width :514px) {
+    .nextFight {
+        width: 78%
+    }
+}
+.searchVideo{
+    margin: 2% auto;
+    width: 59%;
+    height:  39px;
+}
+.searchVideo input{
+    width:  100%;
+    height:  100%;
+}
+
+.fights {
+
+
+
+
+
+}
+
+.blockVideo{
+    display:  flex;
+    width: 30%;
+    flex-flow: column;
+    min-width: 250px;
+    margin: 1%;
+}
+
+.videoImg{}
+
+.textOfVideo{
+    text-align:  center;
+    font-size:  20px;
+}
+
+.textOfTopArticles {
+    float: left;
+    display: table;
+    width: 56%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textOfTopArticles h4 {
+    vertical-align: middle;
+    display: table-cell;
+}
+.textOfTopArticles h4:hover {
+    color: #342f85;
+    cursor: pointer;
+}
+
+
+@media  only screen and (max-width :872px) {
+    aside{
+        display:none !important;
+    }
+    .videoMainBlock{
+        width:100% !important;
+    }
+}
+
+
+@media  only screen and (max-width :600px) {
+
+    .commonBlock{
+        margin:10% auto !important
+    }
+}
+
+
+@media  only screen and (max-width :700px) {
+    .mainEventVideo{
+        width: 77% !important;
+        margin:  0 auto;
+        height: 360px !important;
+        top: 0 !important;
+        float:  none !important;
+    }
+    .listOfCards{float: none !important;width: 78% !important;}
+    .videoOfCards{
+        float:  none !important;
+        overflow:  hidden;
+        margin:  0 auto;
+        width: 77% !important;
+    }
+
+}
+
+
+.videoBlock{
+    overflow:  hidden;
+    width: 97%;
+    margin: 4% auto;
+
+    background: #ffffff;
+}
+
+.mainEventVideo{
+    float:  left;
+    width: 37%;
+    height: 250px;
+    color: black;
+    top: 40px;
+    position:  relative;
+}
+
+.listOfCards{
+    float:  left;
+    margin:  0 auto;
+    width: 63%;
+
+}
+.listOfCards ul li{
+    float:  left;
+    margin: 1%;
+    width: 31%;
+    height:  26px;
+}
+
+.videoOfCards{
+
+    float:  left;
+
+    width: 63%;
+
+}
+.videoOfCards ul li {
+    float:  left;
+    width: 46%;
+    height: 165px;
+    margin:  0 auto;
+    margin: 2%;
+}
+
+.streamsOnVideo{
+    color: white;
+    text-align:  center;
+    overflow:  hidden;
+}
+.streamsOnVideo ul li{
+    float:  left;
+    width: 19%;
+    height: 160px;
+    margin: 1% 3%;
+}
+
+.allFightsFighters{
+    text-align:  center;
+    color: black;
+    overflow:  hidden;
+}
+
+.allFightsFighters ul li{
+    float:  left;
+    margin: 1% 1%;
+    width: 31%;
+    height:  130px;
+    color:  black;
+}
+.specialPageVideo{max-width: 1200px;overflow:  hidden;background: #ffffff;}
+
+.videoMainBlock{
+    background: #ffffff !important;
+    width: 100%;
+    float:  left;
+}
+.fights{
+    display:  flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.nameOfPromotion span{
+    font-size: 30px;
+}
+
+.nameOfPromotion{
+    text-align:  center;
+    background: #2f3a7d;
+    color:  white;
+    text-transform:  uppercase;
+}
+
+.fights ul li{width: 31%;height:  235px;float:  left;margin: 1%;}
+
+.lineArticle img{width:  100%;height:  100%;}
+.lineText{
+    display: table;
+
+    width: 63%;
+    margin: 0 1% 2% 3%;
+
+}
+.lineImg{
+    float:  left;
+    width: 33%;
+    height: 170px;
+    margin:  0 auto;
+}
+
+.rightNameOfHotNews ul li span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+.dataOnMain{
+    float:  left;
+}
+
+.rowCount span{
+
+}
+.textOfTopArticles span{
+
+
+}
+
+table.main{
+
+}
+
+.bellatorImg{
+    margin-top: 0px !important;
+}
+
+.mainTwoImg img{
+    /* height:  100%; */
+    /* width: 100%; */
+}
+
+.blueLine{background:#374593;color:  white;}
+
+.leftImgBig{background:#d2d2d2;/* margin-top: 0%; */}
+
+.rightImgBig{background:#d1d1d1;}
+
+.main tr{
+    border-top:1px solid black;
+}
+
+
+.bellatorImg .leftBellatorImg img{
+    left: 17px !important;
+    top: 20px;
+    width: 147px;
+}
+
+.bellatorImg .rightBellatorImg img{
+    left: -25px;
+    top: 18px;
+    width: 219px;
+}
+
+
+
+.mainCardBellator{
+    display:  flex;
+    flex-flow:  row wrap;
+    clear: both;
+
+}
+.mainTwoImg{
+    display:  flex;
+    flex-flow:  row wrap;
+    /* width: 45%; */
+    justify-content:  space-between;
+    margin: 0% 0 0 1%;
+    /* flex: 1 1 38%; */
+    width: 100%;
+    border: 0px solid #374593;
+    /* background: radial-gradient(100% 44% ellipse at 50% 86%,#2e2e2e -16%,#b3b3b3,#000); */
+    background: #3d3d3d;
+    min-width:  399px;
+}
+.losesFight .countFight{
+    background:  red;
+}
+
+.graph{
+    background:  green;
+    color:  white;
+    text-align:  center;
+
+}
+
+.twoTable{
+    width: 100%;
+    clear:  both;
+    display:  flex;
+    flex-flow: row wrap;
+}
+
+.losesFight tr{
+
+
+}
+
+.loses .rowCount{
+    color:red;
+}
+.loses .countFight{
+    background:red;
+
+}
+
+table{
+    width: 100%;
+    /* margin-top: 0; */
+    /* text-align:  center; */
+    font-size:  18px;
+    /* color: #131313; */
+    /* background: #ffffff; */
+    border-collapse:  separate;
+    border-spacing:  0px 8px;
+}
+
+.historyOfFightsTable tr{
+
+}
+.historyOfFightsTable tr th{
+    background: #274376;
+    border: 1px solid white;
+    height:  52px;
+    text-align:  center;
+    color: white;
+}
+.historyOfFightsTable tr td{
+    border:  1px solid white;
+    height: 75px;
+}
+
+
+.winsFight, .losesFight{border-spacing: 5px 1rem;border-collapse: separate;/* flex-flow: column; *//* flex: 1 1 42%; */width:  50%;}
+
+.loses{
+}
+
+.percent{
+
+
+}
+.rowCount{
+    margin-bottom: 1%;
+}
+.countFight{
+    background:green;
+    color:white;
+    width: 12%;
+
+    text-align:  center;
+
+}
+
+.wins{
+    flex-flow: column wrap;
+    display:  flex;
+    flex: 1 1 50%;
+    color:  green;
+}
+
+.blGrid1 .gridText{
+    position:  absolute;
+    bottom:  0;
+    width: 100%;
+
+
+    z-index: 1;
+}
+
+.blGrid1 .gridText a{
+
+
+    color: #ffb708;
+
+    font-size:  24px;
+    font-weight:  600;
+}
+
+
+.nameOfVideo h2 a{
+    color:white;
+}
+.blGrid7 .gridImg,.blGrid8 .gridImg{
+
+
+}
+
+.nameOfVideo h2 a:hover
+{
+    color:#c3c3c3;
+}
+.onlyNewsRightMenu{
+    /* width: 29%; */
+    margin-right: 1%;
+    border: 15px solid #25374a;
+    background: #25374a;
+    color: white;
+    overflow: hidden;
+}
+
+
+.centerBlock{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nameOfAsideRight{
+
+
+    border-bottom:  1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 18px;
+    text-align:  center;
+    text-transform:  uppercase;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+
+h2{
+    font-size: 1.1rem;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+
+}
+
+a:hover{
+    color:#732335;
+    text-decoration:none;
+}
+
+
+.blockOnDetailPageImg {
+    flex: 1 1 50%;
+}
+.blockOnDetailPageText{text-align:center;justify-content: safe;}
+
+.blockOnDetailPage{
+    display:flex;
+    flex-flow:  column;
+    flex-basis:  30%;
+    min-width:  178px;
+}
+
+ul{
+    margin: 0 !important;
+}
+
+
+.video{
+    display:  flex;
+    flex-flow: column nowrap;
+    justify-content:  center;
+
+}
+
+.videoImg img{
+    width:  100%;
+}
+
+.nameOfVideo{
+
+
+    margin-top: 4%;
+}
+
+.textOnMainArticle:hover{
+
+
+}
+.month{
+    background: #4242bb;
+    color: white;
+}
+
+.rightMenu div{
+    flex:  1 1 auto;
+    text-align:  center;
+    font-size:  22px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background: #ffffff;
+    color: black;
+}
+.rightMenu div:hover{background: #25344a;color: white;cursor:pointer;}
+
+
+.nameOfCalendar span:hover{
+
+
+}
+
+.nameOfCalendar span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+
+aside{
+    margin: 2% 1% 4% 1%;
+    float: right;
+    width: 29%;
+    /* overflow:  scroll; */
+    overflow-x: hidden;
+}
+.scrollRightMenu{
+
+
+
+
+
+}
+
+.bestOfTheWeek{     }
+
+.coutOfArticle img{
+    width: 100%;
+    height: 100px;
+}
+
+
+.coutOfArticle{float:  left;display:  inline-block;width: 43%; margin-right: 1%;}
+
+
+.textOfTopArticles span:hover{
+
+
+}
+
+.nameOfCalendar{
+
+
+
+
+    padding: 0 5%;
+    margin:  0 auto;
+    flex: 1 1 80%;
+    display:  flex;
+    align-items:  center;
+
+    justify-content:  center;
+}
+
+.numberOfMonth{
+    font-size: 28px;
+    border-bottom: 1px solid;
+
+}
+
+
+.calendarData{
+
+
+
+
+    border:  1px solid blue;
+    text-align:  center;
+    margin-left: 1%;
+    flex: 1 1 20%;
+    height: 101px;
+}
+
+.calendarData ul li{}
+
+.calendar{
+    width:  100%;
+
+    border-bottom: 1px solid;
+    padding: 2px 0;
+
+    margin-bottom: 6px;
+    display:  flex;
+}
+
+
+
+.rightMenu{
+    display:  flex;
+    justify-content:  space-between;
+}
+.rightMenu ul li:hover{background: #323581;color:  white;}
+
+.rightMenu ul li{
+    float:  left;
+    width: 45%;
+
+
+    font-size:  23px;
+    text-align:  center;
+    cursor:  pointer;
+
+    border: 1px solid black;
+
+}
+
+.newsByFighter{
+    width: 100% !important;
+}
+
+.blGrid1 .gridText a:hover{
+    color: white;
+}
+
+.boldDetail{
+    font-weight:600;
+}
+
+.dark{
+    color:#8c8c8c;
+}
+
+.titleCommon {
+    text-align: center;
+
+
+
+    width:100%;
+    margin:  0 auto;
+    background: #162951;
+}
+
+.titleCommon span{
+    text-align: center;
+    margin: 1%;
+    color:white;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+
+
+.textOfTopArticles {
+    float: left;
+    display: table;
+    width: 56%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textOfTopArticles span{   }
+
+.textOfTopArticles span:hover{
+
+
+}
+.data{float: left;margin: 1%; display:  inline-block; color: #721c24;}
+
+.tag{
+    display:  inline-block;
+    float: right;
+
+    margin: 1%;
+    background: #473ac2;
+    color: white;
+}
+
+body{
+
+}
+
+
+@media  only screen and (max-width : 560px) {
+    .filterFlex{flex-flow: row wrap !important;  }
+
+}
+
+@media  only screen and (max-width : 880px) {
+    .bottomArticle {
+        max-width: 100% !important;
+    }
+}
+
+
+@media  only screen and (max-width : 550px) {
+    .twoTable{flex-flow:column;}
+}
+
+
+.insideMainBlockForBellator{
+
+    margin: 1% 0;
+    background: #3d3d3d;
+}
+
+.bottomArticle{
+    display:  flex;
+    flex-flow: row wrap;
+
+
+}
+.articleOnMain{
+    flex-flow:  row nowrap;
+    display:  flex;
+    margin: 5px;
+    align-items: flex-start;
+
+    border-top: 1px solid #d4d4d4;
+
+}
+.imageOnMainArticle img{
+    width: 216px;
+    height: 120px;
+}
+
+
+@media  only screen and (max-width : 880px) {
+    .textOnMainArticle{
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0 0 0 7px !important;
+    }
+}
+
+.text{
+    margin:  6px;
+    padding:  1px;
+
+}
+.textOnMainArticle{
+    flex: 2 1 100px;
+    margin: 0 10px;
+}
+
+
+.imageOnMainArticle{ min-width: 120px;}
+@media  only screen and (max-width : 560px) {
+    .filterFlex{flex-flow: row wrap !important;  }
+
+}
+
+.insideFilterBlock:hover{
+    background: #ffffff;
+    color: black;
+    cursor:  pointer;
+}
+.insideFilterBlock{
+
+    text-align:  center;
+
+    padding: 5px;
+    display: table;
+    border-radius: 4px;
+
+}
+.insideFilterBlock select{
+    text-transform: uppercase;
+}
+
+.filter{
+    overflow:  hidden;
+    margin: 0 auto;
+    background: #162353;
+    text-transform:  uppercase;
+    color: white;
+    width: 100%;
+}
+.filter ul li{
+    float:  left;
+    margin: 1% 2%;
+
+    padding: 1%;
+    cursor:  pointer;
+
+}
+.filter ul li:hover{
+    background: #2a2396;
+    color: white;
+}
+
+.filterFlex{
+    display:  flex;
+    flex-flow:  row nowrap;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+.blGrid1>a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 0;
+    background-image: linear-gradient(to bottom, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(20, 30, 51, 0.1) 77%, rgba(20, 30, 51, 0.6) 80%, rgba(20, 30, 51, 0.9) 100%);
+}
+
+.widget>nav{
+    margin:0 0 0 20px;
+}
+
+.nameOfFilter{
+    text-align:  center;
+    margin: 1%;
+}
+
+.widget{
+    width: 98%;
+    margin: 2% auto 3% auto;
+}
+
+.search{
+    color: #b9b9b9;
+    font-size: 0.75em;
+    padding: 15px 20px;
+    border:1px solid #b0e1ef;
+    width: 100%;
+    margin:  0 auto;
+}
+
+
+.widget h2{
+    text-transform: uppercase;
+    background: #f8f8f8;
+    border-left: 3px solid green;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.dataAndTagMain{
+    overflow:hidden;
+}
+.center-block-main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.promotions {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin: 1% 0;
+}
+
+.cls{
+    clear: both;
+}
+
+.mainBlock{
+    /* overflow:  hidden; */
+    /* position:  relative; */
+    /* margin-left: 1%; */
+}
+
+.rightMenu ul li:first-child{
+    width: 52%;
+}
+
+
+.blGrid1 .gridImg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+
+
+
+
+}
+
+.calendar:first-child{
+    border-top:1px solid black;
+}
+.darkedImg{
+    position:relative;
+    height:  100%;
+}
+
+.darkedImg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 0;
+    background-image: linear-gradient(to bottom, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(20, 30, 51, 0.1) 20%, rgba(20, 30, 51, 0.6) 60%, rgba(20, 30, 51, 0.9) 100%);
+}
+
+.text:hover{
+    color:#4c30ce;
+    cursor:pointer;
+}
+
+
+.fightStat{
+    clear:  both;
+    display:  flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.commonBlock{
+    margin: 4% auto 2% auto;
+    max-width: 1048px;
+    overflow:  hidden;
+}
+
+.main tr th{
+    text-align:center;
+}
+.lineData{
+    float:  left;
+
+    padding:  0;
+    margin:  0;
+}
+
+.linksOfStream{
+    display:  flex;
+    justify-content:  space-around;
+    width: 65%;
+    margin: 2%;
+}
+
+.bellatorImg li{
+    height: 173px !important;
+    width: 18% !important;
+}
+.prelimsBellator li{
+    width: 12% !important;
+    height: 135px !important;
+}
+
+@media  only screen and (max-width : 880px) {
+
+
+    aside{
+        display: none !important;
+    }
+    main{
+        width: 100%!important;
+    }
+    .textOfArticle{
+        width: 70%;
+    }
+    .mainBlock{
+        margin:0 auto !important;
+    }
+
+
+
+}
+
+.gridImg{
+
+
+    flex: 1 1 50%;
+
+}
+
+.blGrid8 .gridImg{
+
+    order: 1;
+}
+
+
+.blGrid1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    position:  relative;
+}
+
+
+@media only screen and (max-width: 820px){
+    .blGrid7,.blGrid8{
+
+        flex-flow:  column;
+    }
+    .blGrid8 .gridImg{
+
+    }
+    .blGrid3{
+        display:  none;
+    }
+
+}
+
+.blGrid7 img,.blGrid8 img{
+
+}
+
+.blGrid7 .gridText,.blGrid8 .gridText{
+
+}
+
+.blGrid7,.blGrid8{
+    display:  flex;
+    flex-flow: row nowrap;
+    align-items:  center;
+}
+
+
+
+
+
+
+
+.nameOfCalendar{
+    flex:1 1 80%;
+}
+
+.blGrid6{
+    grid-column: span 2;
+    height:  auto;
+}
+
+.blGrid6 img{
+
+
+
+    height: 238px;
+}
+
+.blGrid7{
+    grid-column:  span 2;
+
+    background: #772f40;
+}
+.blGrid8{
+    grid-column: span 2;
+    background:  #f9b041;
+}
+
+
+
+.nameOfCalendar h2{
+
+}
+
+
+.nameOfCalendar {
+
+}
+
+.grid{
+    display:  grid;
+
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gridItem{
+    border: 1px solid #e7e7e7;
+}
+
+.gridImg img{
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.gridText{flex: 1 1 50%;padding:  1% 4%;}
+.gridText h2{}
+.gridText h2 a{}
+
+
+@media  only screen and (max-width : 820px) {
+    .bl{
+        flex: 1 1 48% !important;
+    }
+    .bl1{   }
+
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gridItem{
+        grid-column: span 1;
+    }
+
+    .blGrid6 img{height:auto}
+    .blGrid1{
+        grid-row: 1/2;
+    }
+}
+
+
+@media  only screen and (max-width : 540px) {
+    .bl{
+        min-width: 100% !important;
+    }
+    .bl1{   }
+}
+
+.bl4{
+
+
+}
+.bl5{
+
+}
+
+.bl1{
+    flex: 1 1 51% !important;
+}
+
+.nameOfHotNews :hover{
+    cursor:pointer;
+    color: #2a2396;
+}
+
+.allTextOnMainMiddleBlock{
+    margin:0 1%;
+    padding: 2%;
+}
+
+@media  only screen and (max-width : 1025px) {
+    .rightTopBlocks{
+
+
+    }
+    .hotNews{
+
+
+    }
+}
+
+
+
+
+.rightTopBlockText span{
+    display:  table-cell;
+
+    font-size: 18px;
+    font-family: "Torque Web Medium",Helvetica, sans-serif;
+
+
+}
+
+.rightTopBlockText span:hover{
+    color: #2a2396;
+    cursor:pointer;
+}
+@media  only screen and (max-width : 650px) {
+    .newsSpecialPage{
+        margin:10% auto !important
+    }
+}
+
+
+
+
+@media  only screen and (max-width : 620px) {
+
+    .grid{
+        display:  flex;
+        flex-flow: row wrap;
+    }
+    .gridItem{color:white;display:  flex;}
+
+    .blGrid7,.blGrid8{
+        grid-column: span 2 !important;
+        flex-flow:  row;
+        width: 100%;
+    }
+
+
+
+
+    .blGrid1{
+        grid-column:span 2;
+    }
+
+
+
+    main{
+        width: 100%!important;
+    }
+    .lineTextArticle{
+        margin:0 auto;
+        width:90%;
+    }
+    .textOfArticle{
+        width: 70%;
+        margin:0 auto;
+    }
+    .lineImg{
+
+
+
+
+
+    }
+    .lineText{
+
+
+
+        margin: 0 auto !important;
+    }
+
+    .blGrid7 .gridImg, .blGrid8 .gridImg {
+        width: auto !important;
+        height: auto !important;
+        order: 0;
+    }
+
+
+}
+
+hr{
+    margin-bottom: 1rem ;
+    border: 11px solid #25324b !important;
+    padding: 0 !important;
+}
+.rightFloatingBlock h2{
+    font-size:20px
+}
+
+
+@media  only screen and (max-width : 500px) {
+    .lineImg{
+        width: 77% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 269px !important;
+    }
+    .lineText{
+        width: 78% !important;
+        float:none;
+        clear:both;
+    }
+}
+
+.lineTextArticle span{
+    display:table-cell;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: left;
+    font-size:  20px;
+
+}
+
+
+
+.lineTextArticle span:hover{
+    color: #2a2396;
+    cursor:pointer;
+}
+
+.textOfArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textForBlockArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+.rightNameOfHotNews ul li:hover{
+    background: #88acff;
+    color:white;
+}
+
+
+@media  only screen and (max-width : 740px) {
+    .textOfArticle{
+        width: 94% !important;
+    }
+}
+
+.mainContent{
+    /* background:white; */
+}
+
+.tagAnfDataOnMain{
+    width:  100%;
+
+    float:  left;
+}
+.mainBlock{/* width: 100%; *//* float:  right; *//* background: #ffffff!important; *//* overflow:  hidden; */}
+
+
+.main .block{
+    float:left;
+}
+
+main{
+    /* float:left; */
+    /* width: 67%; */
+    /* margin-top: 2%; */
+    /* background: #ffffff; */
+}
+
+
+.textOfTopArticles{
+    position:  relative;
+    margin-left: 0;
+    padding-right: 1px;
+    display:  table;
+    text-align:  center;
+    height:  100px;
+    width: 56%;
+}
+
+.coutOfViews{
+    float:  left;
+    position:  relative;
+    top: 11px;
+}
+
+.statOfArticle{
+    overflow: hidden;
+}
+
+.textOfArticle ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+.imgOfViews{
+    float:  left;
+    margin: 9px 3px 0 17%;
+}
+
+.textOfArticle h2{
+    margin: 7% 0 3% 0;
+}
+
+
+.textOfArticle{margin: 3% auto;width: 85%;position:  relative;}
+
+.imgOfArticle{
+
+    position:  relative;
+
+}
+
+
+a.more{
+    color: #c2c2c2;
+    border:2px solid #c2c2c2;
+    padding: 7px 20px;
+    display: inline-block;
+
+
+}
+
+
+.icons{
+    height: 20px;
+}
+
+.coutOfCommentsAndViews{
+    display: inline-block;
+    bottom: 3px;
+    position: relative;
+}
+
+.views{
+    position: relative;
+    left: 5px;
+}
+
+.themeOfArticle{
+    position:  relative;
+    top: 0;
+    left:  16px;
+    border: 1px solid black;
+}
+
+.div-subscribe{
+    position: relative;
+    width: 100%;
+}
+
+.rightNameOfHotNews ul li:last-child{
+    border:none;
+}
+
+.newsImg{width: 86%;height: 400px;margin: 2% auto;}
+
+.newsImg img{width: 100%;height: 100%;*margin-bottom: 6px; }
+
+.clr{
+    clear:both;
+}
+
+
+.pager{
+    overflow: hidden;
+    border:1px solid #e1e1e0;
+    font-size:1.24em;
+    width: 70%;
+}
+.pager a{
+    text-decoration: none;
+}
+.pager a:hover{
+    text-decoration: underline;
+}
+
+.previous-link{
+    float: left;
+}
+.next-link{
+    float: right;
+}
+
+
+
+
+
+
+.promotionList{
+    cursor: default !important;
+
+
+}
+.promotionList select{
+    width: 100%;
+    margin: 0% 0% 0 0%;
+    text-transform:  uppercase;
+}
+
+
+.hotNews{
+    overflow:  hidden;
+    margin:  1% auto;
+    width: 46%;
+    border-right: 1px solid #979797;
+    background: #ffffff;
+    float:  left;
+    margin: 1% 0 1% 1%;
+    position:  relative;
+    top: 0px;
+
+}
+
+.hotNews img{
+    float:  left;
+    width: 100%;
+    height: 360px;
+}
+
+.nameOfHotNews{
+
+
+    width: 100%;
+    height: 89px;
+
+    color: #000000;
+    text-align: justify;
+    font-size:  18px;
+    text-align:  center;
+    display: table;
+}
+
+.nameOfHotNews p{
+    width: 100%;
+    margin: 0% auto;
+    vertical-align:  middle;
+    display: table-cell;
+    color: black;
+    font-size: 22px;
+}
+
+.rightNameOfHotNews {
+    display: table;
+    width: 100%;
+    text-align: justify;
+    margin: 0 0;
+    float:  left;
+
+}
+.rightNameOfHotNews ul li{
+    margin: 0 0;
+    height: 102px;
+    cursor:  pointer;
+    border-right: 1px solid #969696;
+    width: 25%;
+    display:  table;
+
+    float:  left;
+    text-align:  center;
+    font-weight:  600;
+}
+
+.nameOfImgArticle{
+    position:  relative;
+    overflow:  hidden;
+    width: 100%;
+
+    float:  left;
+}
+
+.tagOfHotNews{
+
+    float: right;
+
+    background: #2f00ff;
+
+
+
+    color:  white;
+}
+
+.calendarData ul{
+    margin-bottom:0;
+}
+
+.dataOfHotNews{
+
+
+
+
+
+
+}
+
+@media  only screen and (max-width :1025px) {
+
+    .rightFloatingBlock{
+        display: none;
+    }
+    .mainContent{
+        width:100%;
+    }
+}
+
+.blockNewsTag{
+    background: blue;
+    color: white;
+    float: right;
+    margin: 2%;
+}
+.blockNewsData{
+
+    color: black;
+    float: left;
+    position:  relative;
+
+    margin: 2%;
+}
+
+.rightFloatingBlock{
+    float: left;
+    width: 24%;
+    text-align:  center;
+    margin: 0 0%;
+    background: #e2e2e2;
+    color: #ab0000;
+    padding-left: 14px;
+}
+.rightFloatingBlock ul li{
+    cursor:  pointer;
+    margin: 4% 1% 4% 1%;
+    font-size: 11px;
+    font-weight: 500;
+}
+.rightFloatingBlock iframe{
+    width: 100%;
+    height: 144px;
+}
+
+.blockArticle{
+    width: 46%;
+    float:  left;
+    background: #ffffff;
+    margin: 2% 2%;
+
+}
+
+.blockArticle img{
+
+    width:  100%;
+    height:  100%;
+}
+
+.textForBlockArticle{
+    position:  relative;
+
+    margin-top: -1%;
+    padding: 5px;
+}
+
+.lineArticle{
+
+    margin: 1% auto;
+    overflow:  hidden;
+    background:  white;
+    width: 86%;
+
+}
+
+
+
+.lineTextArticle {
+    clear:  both;
+    top: 0px;
+    margin-top: 0px;
+    position:  relative;
+
+
+    display:  table;
+    text-align:  center;
+
+    margin: 1%;
+}
+
+
+
+.lineTag{
+    float:  right;
+    background:  blue;
+    color:  white;
+    display:  inline-block;
+
+    position:  relative;
+}
+
+
+
+
+
+
+
+
+
+
+.tagOnMain{
+    float:  right;
+    background: #3f00ff;
+    color:  white;
+}
+
+.rightTopBlocks{
+    float:  left;
+    width: 52%;
+    overflow:  hidden;
+    margin-top:  1%;
+}
+
+.rightTopBlock{
+    float:  left;
+    width: 50%;
+
+    border-right: 1px solid #969696;
+    background:  white;
+    height: 452px;
+
+}
+.rightTopBlockImg img{
+    width:  100%;
+    height: 240px;
+}
+.rightTopBlockText{
+    width:  100%;
+
+    display: table;
+
+
+
+}
+
+.hotNewsTop{
+    max-width: 100%;
+    margin:  10px;
+    padding: 10px;
+    display:  flex;
+    flex-flow:  row wrap;
+}
+
+.blGrid7 a:hover,.blGrid8 a:hover{
+    color:white;
+}
+
+.darkedImg a:hover{
+    color:white !important;
+}
+.blGrid7 a,.blGrid8 a{
+    color:white;
+}
+
+.bl{
+    display:  flex;
+    margin: 3px;
+    padding: 3px;
+    flex-flow: column nowrap;
+    flex: 1 1 22%;
+    /* min-width: 210px; */
+    background:  white;
+}
+.images {
+    width:  auto;
+}
+.images img{
+    width:  100%;
+}
+@media  only screen and (max-width : 880px) {
+    aside{
+        display: none !important;
+    }
+    main{
+        width: 98%!important;
+    }
+    .textOfArticle{
+        width: 70%;
+    }
+    .mainBlock{
+        margin:0 auto !important;
+    }
+}
+
+.topBorder{
+    border-top: 1px solid #dedede;
+}
+
+.articleOnMain{
+
+}
+.textOnDetailNews{
+    order: 0;
+    border-top: 1px solid #dedede;
+}
+.countReadAlso{
+
+    flex: 1 1 10%;
+    background: #473ac2;
+    color:  white;
+    text-transform:  uppercase;
+    font-size:  24px;
+
+    text-align:  center;
+
+}
+
+
+.rightMenu div{
+
+
+}
+
+
+
+
+.blocksOnDetailPage{display:flex;flex-flow: row wrap;justify-content: space-evenly;}
+
+.mainImgOnDetailNews{
+    order: -1;
+    margin-bottom: 2%;
+}
+main img{
+
+
+
+
+}
+
+.newsSpecialPage{
+    max-width: 1080px !important;
+    display:  grid;
+    border-left: 1px solid black;
+    border-right:  1px solid black;
+}
+
+.rightFloatingBlock h2 a{
+    color:#000000
+}
+
+.rightFloatingBlock h2 a:hover{
+    text-decoration:none;
+    color:#473ac2;
+}
+
+@media  only screen and (max-width : 650px) {
+    .newsSpecialPage{
+        margin:10% auto !important
+    }
+}
+
+
+
+
+@media  only screen and (max-width : 620px) {
+
+    main{
+        width: 100%!important;
+    }
+    .lineTextArticle{
+        margin:0 auto;
+        width:90%;
+    }
+    .textOfArticle{
+        width: 70%;
+        margin:0 auto;
+    }
+    .lineImg{
+        width: 51% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 237px !important;
+    }
+    .lineText{
+        width: 59% !important;
+        float:none;
+        clear:both;
+    }
+
+}
+
+hr{
+    margin-bottom: 1rem;
+    border: 4px solid #25324b !important;
+    padding: 0 !important;
+}
+.rightFloatingBlock h2{
+    font-size:20px
+}
+
+
+@media  only screen and (max-width : 500px) {
+    .lineImg{
+        width: 77% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 269px !important;
+    }
+    .lineText{
+        width: 78% !important;
+        float:none;
+        clear:both;
+    }
+}
+
+.lineTextArticle span{
+    display:table-cell;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: justify;
+}
+
+
+
+.lineTextArticle span:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textOfArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textForBlockArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+.rightNameOfHotNews ul li:hover{
+    background: #88acff;
+    color:white;
+}
+
+
+@media  only screen and (max-width : 740px) {
+    .textOfArticle{
+        width: 94% !important;
+    }
+}
+
+.mainContent{
+    /* background:white; */
+}
+
+body{
+
+}
+
+.mainBlock{/* width: 100%; *//* float:  right; *//* background: #ffffff!important; *//* overflow:  hidden; */}
+
+
+.main .block{
+    float:left;
+}
+
+main{
+    /* float: left; */
+    /* width: 64%; */
+    /* margin: 2% 1% 1% 1%; */
+    /* background: #ffffff; */
+}
+
+
+.textOfTopArticles{
+    position:  relative;
+    margin-left: 0;
+    padding-right: 1px;
+    display:  table;
+    text-align:  center;
+    height:  100px;
+    width: 56%;
+}
+
+.coutOfViews{
+    float:  left;
+    position:  relative;
+    top: 11px;
+}
+
+.statOfArticle{
+    overflow: hidden;
+}
+
+.textOfArticle ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+.imgOfViews{
+    float:  left;
+    margin: 9px 3px 0 17%;
+}
+
+.textOfArticle h2{
+    margin: 7% 0 3% 0;
+}
+
+
+.textOfArticle{margin: 3% auto;width: 85%;position:  relative;}
+
+.imgOfArticle{
+
+    position:  relative;
+
+}
+
+article>header:hover .publish {
+    bottom: 0;
+}
+
+article>header{
+    position: relative;
+    background: none;
+    margin: 4% 2%;
+    background: #ffffff;
+    overflow:  hidden;
+}
+
+article>h2{
+    font-size: 1.75em;
+    line-height: 1;
+    margin: 0 0 40px 20px;
+    color: #5c5044;
+}
+a.more{
+    color: #c2c2c2;
+    border:2px solid #c2c2c2;
+    padding: 7px 20px;
+    display: inline-block;
+
+
+}
+
+
+
+.icons{
+    height: 20px;
+}
+
+.coutOfCommentsAndViews{
+    display: inline-block;
+    bottom: 3px;
+    position: relative;
+}
+
+.views{
+    position: relative;
+    left: 5px;
+}
+
+.themeOfArticle{
+    position:  relative;
+    top: 0;
+    left:  16px;
+    border: 1px solid black;
+}
+
+.div-subscribe{
+    position: relative;
+    width: 100%;
+}
+
+.rightNameOfHotNews ul li:last-child{
+    border:none;
+}
+
+.newsImg{width: 86%;height: 400px;margin: 2% auto;}
+
+.newsImg img{width: 100%;height: 100%;*margin-bottom: 6px; }
+
+.clr{
+    clear:both;
+}
+
+
+.pager{
+    overflow: hidden;
+    border:1px solid #e1e1e0;
+    font-size:1.24em;
+    width: 70%;
+}
+.pager a{
+    text-decoration: none;
+}
+.pager a:hover{
+    text-decoration: underline;
+}
+
+.previous-link{
+    float: left;
+}
+.next-link{
+    float: right;
+}
+
+
+.data{float: left; display:  inline-block; }
+
+.tag{
+    display:  inline-block;
+    float: right;
+
+
+    background: #603fff;
+    color: white;
+}
+
+
+.promotionList{
+    cursor: default !important;
+
+
+}
+.promotionList select{
+    width: 100%;
+    margin: 0% 0% 0 0%;
+    text-transform:  uppercase;
+}
+
+
+.hotNews{
+    overflow:  hidden;
+    margin:  1% auto;
+    width: 97%;
+    border: 1px solid #565656;
+    background: #e1e1e1;
+}
+
+.hotNews img{
+    float:  left;
+    width: 100%;
+    height: 416px;
+}
+
+.nameOfHotNews{
+    position:  absolute;
+    top: 82%;
+    width: 100%;
+    height: 76px;
+    background: rgba(0, 0, 0, 0.8);
+    color:  white;
+    text-align: justify;
+    font-size:  18px;
+}
+
+.nameOfHotNews p{
+    width: 95%;
+    margin: 1% auto;
+}
+
+.rightNameOfHotNews {
+    display: table;
+    width: 40%;
+    text-align: justify;
+    margin: 0 0;
+    float:  left;
+
+}
+.rightNameOfHotNews ul li{
+    margin: 0 0;
+    height: 83px;
+    cursor:  pointer;
+    border-bottom: 1px solid #565656;
+    width: 100%;
+    display:  table;
+
+    text-align:  center;
+}
+
+.nameOfImgArticle{
+    position:  relative;
+    overflow:  hidden;
+    width:  60%;
+    float:  left;
+}
+
+.tagOfHotNews{
+    display:  inline-block;
+    float: right;
+    margin:  1%;
+    background: #584aff;
+    position:  absolute;
+    bottom: 0;
+    right:  0;
+}
+
+.calendarData ul{
+    margin-bottom:0;
+}
+
+.dataOfHotNews{
+    display:  inline-block;
+    float: left;
+    margin: 1%;
+    position:  absolute;
+    bottom:  0;
+}
+
+
+
+@media  only screen and (max-width :585px) {
+
+
+    .textOnMainArticle h2 {
+        font-size: 0.9rem !important;
+        font-weight: 600;
+    }
+
+
+}
+
+.blockNewsTag{
+    background: blue;
+    color: white;
+    float: right;
+    margin: 2%;
+}
+.blockNewsData{
+
+    color: black;
+    float: left;
+    position:  relative;
+
+    margin: 2%;
+}
+
+.rightFloatingBlock{
+    float: left;
+    width: 21%;
+    text-align:  center;
+    margin: 0 0%;
+    background: #ffffff;
+    color: #ab0000;
+
+    height:  800px;
+    overflow:  scroll;
+    overflow-x: hidden;
+    direction: rtl;
+}
+.rightFloatingBlock ul li{
+
+    margin: 4% 1% 4% 1%;
+    font-size: 11px;
+    font-weight: 500;
+}
+.rightFloatingBlock iframe{
+    width: 100%;
+    height: 130px;
+}
+
+.blockArticle{
+    width: 46%;
+    float:  left;
+    background: #ffffff;
+    margin: 2% 2%;
+
+}
+
+.blockArticle img{
+
+    width:  100%;
+    height:  100%;
+}
+
+.textForBlockArticle{
+    position:  relative;
+
+    margin-top: -1%;
+    padding: 5px;
+}
+
+.lineArticle{
+
+    margin: 2%;
+    overflow:  hidden;
+    background:  white;
+}
+
+
+
+.lineTextArticle {
+    clear:  both;
+    top: 0px;
+    margin-top: 0px;
+    position:  relative;
+
+
+    display:  table;
+    text-align:  center;
+    height:  116px;
+}
+
+
+
+.lineTag{
+    float:  right;
+    background:  blue;
+    color:  white;
+    display:  inline-block;
+
+    position:  relative;
+}
+
+.lineData{
+    float:  left;
+
+    padding:  0;
+    margin:  0;
+}
+
+.onlyNewsRightMenu{
+
+
+
+
+
+
+}
+
+.textOfTopArticles span{
+
+
+}
+.textOfTopArticles span:hover{
+
+
+}
+
+.NewsOnDetailPageRight{
+    display:  flex;
+    flex-flow: row nowrap;
+
+    border-bottom: 1px solid #242e4b;
+    margin-top: 3%;
+
+
+    align-items: center;
+}
+.textOfDetailPage{flex: 1 1 70%;margin-left: 1%;}
+.textOfDetailPage img{}
+.imgOfDetailPage{
+    width: 100%;
+    display:  flex;
+    justify-content:  center;
+
+}
+
+
+.imgOfDetailPage img{
+    width:  100%;
+    height: 100%;
+}
+.lineArticle img{width:  100%;height:  100%;}
+
+.lineText{
+    display: table;
+
+    width: 54.9%;
+    margin:  0 auto;
+    height: 163px;
+}
+.lineImg{
+    float:  left;
+    width: 233px;
+    height: 170px;
+    margin:  0 auto;
+}
+
+.centerBlock .articleOnMain{
+    border-top:none !important;
+}
+
+.asideBlockNewsRight{
+
+    font-size: 18px;
+    color: #000000;
+
+}
+
+article:last-child{
+    border-bottom:unset;
+}
+
+.newNews{
+    text-transform: uppercase;
+}
+
+
+.rightNameOfHotNews ul li span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.nameOfFighterDetail{
+
+    font-size: 38px;
+}
+
+.infoAboutFighterDetail{
+    overflow:  hidden;
+    margin: 1%;
+}
+
+
+.imgOfFighter{
+    float:  left;
+
+
+
+}
+.imgOfFighter img{
+    width: 100%;
+    height:  100%;
+}
+
+.birthAndAge{
+
+
+    float:  left;
+
+}
+.birthAndAge ul li{}
+
+
+
+.age{
+
+
+}
+
+.onlyNewsRightMenu{
+    width: 29%;
+    margin-left: 0%;
+}
+
+.weightHeightCat{
+    float:  left;
+    width: 100%;
+}
+.weightHeightCat ul li{
+    float:  left;
+    margin-left: 6%;
+}
+.weightHeightCat ul li:first-child{
+
+    margin-left: 0;
+}
+
+.weightHeightCat ul li ul li{
+
+    width:  100%;
+    margin-left:  0;
+}
+
+.mainBlock{/* float:  left; *//* width: 68%; */}
+.detailInfo{
+    overflow:  hidden;
+
+    position:  relative;
+    margin: 1% 1% 1% 2%;
+
+
+
+}
+
+.nextFight{}
+
+.nextFight{
+    width: 52%;
+    margin:  0 auto;
+    background: #757575;
+}
+
+.nextFight p{
+    background:  red;
+    color: white;
+    text-align:  center;
+}
+
+.imgNextFight{
+    color:  white;
+}
+.imgNextFight ul li{
+    float:  left;
+    width: 40%;
+
+    text-align: center;
+    cursor:  pointer;
+
+}
+.imgNextFight img{
+    width:  100%;
+    height:  100%;
+    background: #d0d0d0;
+}
+
+.nameOfNextEvent{
+    width: 23%;
+    margin:  0 auto;
+    text-align:  center;
+    background: #2c3f79;
+    color:  white;
+}
+
+.watchAllCard{
+
+    clear:  both;
+    text-align:  center;
+    background: #2c3f79;
+    color: white;
+    width: 25%;
+    margin: 1% auto;
+    cursor:  pointer;
+}
+
+.versusDetail{width: 20% !important;position:  relative;text-transform:  uppercase;font-size: 35px;top: 55px;}
+
+.nextFightName{
+    margin: 5% auto;
+    background: #2f3a7d;
+    text-align:  center;
+    color: white;
+    font-size:  22px;
+    text-transform:  uppercase;
+}
+
+.imgNextFight ul li ul li{
+    clear:  both;
+    width: 100%;
+    margin-top:  2%;
+}
+
+.specialBlockForDetailPage{
+    max-width: 1080px;
+    overflow: hidden;
+    background: white;
+    margin: 8% auto;
+}
+
+
+.historyOfFightsName{
+
+}
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .mainBlock{
+        width:100%;
+    }
+    .specialBlockForDetailPage{
+        margin: 0 auto !important;
+    }
+
+}
+
+@media  only screen and (max-width : 588px) {
+    .imgOfFighter {
+        float: none;
+        margin: 0 auto;
+        width:  174px;
+    }
+    .detailInfo {
+        overflow: hidden;
+        position: relative;
+        width: 327px;
+        margin:  0 auto;
+    }
+}
+
+.watchAllCard:hover{
+    background:#4f5cab
+}
+.imgNextFight>ul>li{
+    border:1px solid #757575
+}
+
+.imgNextFight>ul>li:hover{
+    border:1px solid #2f3a7d
+}
+
+.versusDetail{
+    border:1px solid #757575 !important;
+    cursor:default;
+
+}
+
+.versusDetail:hover{
+    border:1px solid #757575;
+    cursor:default;
+
+}
+
+@media  only screen and (max-width :759px) {
+    .versusDetail {
+        top: 0;
+    }
+    .watchAllCard {
+        width: 100%;
+    }
+}
+@media  only screen and (max-width :514px) {
+    .versusDetail {
+        font-size: 23px !important;
+    }
+    .watchAllCard {
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width :514px) {
+    .nextFight {
+        width: 78%
+    }
+}
+.searchVideo{
+    margin: 2% auto;
+    width: 59%;
+    height:  39px;
+}
+.searchVideo input{
+    width:  100%;
+    height:  100%;
+}
+
+.fights {
+
+
+
+
+
+}
+
+.blockVideo{
+    display:  flex;
+    width: 30%;
+    flex-flow: column;
+    min-width: 250px;
+    margin: 1%;
+}
+
+.videoImg{}
+
+.textOfVideo{
+    text-align:  center;
+    font-size:  20px;
+}
+
+.textOfTopArticles {
+    float: left;
+    display: table;
+    width: 56%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textOfTopArticles h4 {
+    vertical-align: middle;
+    display: table-cell;
+}
+.textOfTopArticles h4:hover {
+    color: #342f85;
+    cursor: pointer;
+}
+
+
+@media  only screen and (max-width :872px) {
+    aside{
+        display:none !important;
+    }
+    .videoMainBlock{
+        width:100% !important;
+    }
+}
+
+
+@media  only screen and (max-width :600px) {
+
+    .commonBlock{
+        margin:10% auto !important
+    }
+}
+
+
+@media  only screen and (max-width :700px) {
+    .mainEventVideo{
+        width: 77% !important;
+        margin:  0 auto;
+        height: 360px !important;
+        top: 0 !important;
+        float:  none !important;
+    }
+    .listOfCards{float: none !important;width: 78% !important;}
+    .videoOfCards{
+        float:  none !important;
+        overflow:  hidden;
+        margin:  0 auto;
+        width: 77% !important;
+    }
+
+}
+
+
+.videoBlock{
+    overflow:  hidden;
+    width: 97%;
+    margin: 4% auto;
+
+    background: #ffffff;
+}
+
+.mainEventVideo{
+    float:  left;
+    width: 37%;
+    height: 250px;
+    color: black;
+    top: 40px;
+    position:  relative;
+}
+
+.listOfCards{
+    float:  left;
+    margin:  0 auto;
+    width: 63%;
+
+}
+.listOfCards ul li{
+    float:  left;
+    margin: 1%;
+    width: 31%;
+    height:  26px;
+}
+
+.videoOfCards{
+
+    float:  left;
+
+    width: 63%;
+
+}
+.videoOfCards ul li {
+    float:  left;
+    width: 46%;
+    height: 165px;
+    margin:  0 auto;
+    margin: 2%;
+}
+
+.streamsOnVideo{
+    color: white;
+    text-align:  center;
+    overflow:  hidden;
+}
+.streamsOnVideo ul li{
+    float:  left;
+    width: 19%;
+    height: 160px;
+    margin: 1% 3%;
+}
+
+.allFightsFighters{
+    text-align:  center;
+    color: black;
+    overflow:  hidden;
+}
+
+.allFightsFighters ul li{
+    float:  left;
+    margin: 1% 1%;
+    width: 31%;
+    height:  130px;
+    color:  black;
+}
+.specialPageVideo{/* max-width: 1200px; *//* overflow:  hidden; *//* background: #ffffff; */}
+
+.videoMainBlock{
+    background: #ffffff !important;
+    width: 100%;
+    float:  left;
+}
+.fights{
+    display:  flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.nameOfPromotion span{
+    font-size: 30px;
+}
+
+.nameOfPromotion{
+    text-align:  center;
+    background: #2f3a7d;
+    color:  white;
+    text-transform:  uppercase;
+}
+
+.fights ul li{width: 31%;height:  235px;float:  left;margin: 1%;}
+
+
+.newsOfCard{
+    display:  flex;
+    justify-content: center;
+    flex-flow:  row wrap;
+}
+
+
+.prelimsBellator .leftBellatorImg img {
+    width: 65% !important;
+    left: 15px !important;
+}
+
+
+.prelimsBellator .rightBellatorImg img {
+    width: 99% !important;
+    left: -20px !important;
+}
+
+.imgOfimgOfBigBlockTopCities{
+    float:  left;display:  inline-block;
+}
+.mainBlock{
+    /* margin-left: 0 !important; */
+}
+
+.promotion:hover{
+
+
+
+}
+
+.promotion p{
+    text-transform:uppercase;
+    margin:0;
+    padding:0;
+}
+.mainEvent ul,.prelims ul,.earlyPrelims ul{
+
+    display:  flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content:  center;
+}
+
+.textOfNewsOnBottom span{
+
+
+
+
+
+}
+.textOfNewsOnBottom span:hover{
+    cursor:pointer;
+    color:#3b4098
+
+}
+
+@media  only screen and (max-width :660px) {
+    .mainSpecialPage{
+        margin:10% auto !important
+    }
+}
+
+
+.videoOfCard img {
+    width: 100%;
+}
+
+.nameOfCityTopCities{
+    float:  left;
+    display:  inline-block;
+
+    margin-left:  19%;
+}
+.imgBlock img{
+    width:  100%;
+
+}
+
+
+.insideMainBlock{
+    margin: 1%;
+    width: 98%;
+
+
+    padding-left:  0;
+    overflow:  hidden;
+    position:  relative;
+
+}
+
+.blockWithFight{
+    overflow:  hidden;
+    /* background: #3f3f3f; */
+    flex: 1 1 53%;
+    margin-left: 1%;
+}
+
+@media  only screen and (max-width :860px) {
+
+
+    .insideMainBlock{
+        width: 98%;
+    }
+    #floatSideBar{
+        display: none;
+    }
+}
+
+@media  only screen and (max-width :1025px) {
+
+    .topCitiesBySearching{
+        width: 96%;
+    }
+    .imgOfTopCities img{
+        width: 197px;
+
+    }
+    .mediumBlockHotNews{
+
+    }
+
+    .mainSpecialPage{
+        /* width: 1012px !important; */
+    }
+}
+
+@media  only screen and (max-width :1277px) {
+
+    .rightFloatingBlock{
+        display: none;
+    }
+}
+
+.mainImg{
+    width: 49.2%;
+
+    margin: 21% 0 2% 0;
+    display:  inline-block;
+
+    position:  relative;
+}
+
+.textOfMainImg{
+    position:  relative;
+    top: 0%;
+    height: 87px;
+    background: #bd1e1e;
+}
+
+
+.promotions img{
+    width:  100%;
+    height: 100%;
+}
+
+.mainImg img{
+    width: 60%;
+    height: 499px;
+    text-align:  center;
+    margin-left: 2%;
+    position:  relative;
+}
+
+.promotions{        }
+
+.promotions ul li:first-child{}
+.promotions ul li a{
+
+    text-transform:  uppercase;
+    text-decoration:  none;
+}
+.promotions ul li{
+    float:  left;
+    flex-flow: row wrap;flex: 1 1 25%;
+    text-align:  center;
+    font-size:  30px;
+}
+
+.schedule{
+    overflow:  hidden;
+    margin: 0;
+    display: flex;
+    width:  100%;
+    flex-flow: row wrap;
+}
+
+
+.schedule ul li{
+    float:  left
+;margin: 0 1% 0 1%;width: 3%; font-size:  19px;text-align:  center;color:  white;cursor:  pointer;}
+
+
+.dateOfEvent{overflow:  hidden; margin: 0%;background: #4a4a4a;color: white;}
+
+.dateOfEvent ul li:first-child{
+}
+
+.dateOfEvent ul li{float:  left;margin:  0 2% 0 1%;width:  12%;text-align:  center;height:  35px;font-size:  21px;}
+
+.topMenuOfCard{overflow:  hidden;font-size:  18px;background: #3f3f3f;color:  white;}
+.topMenuOfCard  li{
+    float: left;
+    margin-left: 1%;
+    border: 1px solid #680f00;
+}
+
+
+
+.cardWindow{
+
+}
+
+.mainEvent ul li, .prelims ul li, .earlyPrelims ul li{
+
+    width: 31%;
+    margin: 1%;
+    overflow:  hidden;
+    position:  relative;
+    border:  1px solid black;
+    background:  #cfcfcf;
+}
+.cardWindow{
+    overflow:  hidden;
+    background: #3d3d3d;
+    display:  flex;
+    width:  100%;
+    flex-flow: row wrap;
+    margin: 0%;
+}
+
+.mainFight {
+    width: 100%;
+
+    float:  left;
+    background: radial-gradient(36% 141% ellipse at 50% 0,#2e2e2e -95%,#7d7d7d,transparent);
+    position:  relative;
+    border: 1px solid #003d8b;
+}
+.mainEvent ,.prelims,.earlyPrelims{
+    overflow:  hidden;
+
+    width: 100%;
+
+}
+.mainEvent ul li{
+}
+.prelims{}
+.prelims ul li{
+    height: 108px;
+    width: 22%;
+}
+
+.prelims .leftImg img{ left: -30px;}
+.prelims .rightImgLittle img{
+    right: -22px;
+}
+
+.earlyPrelims{}
+.earlyPrelims ul li {width:  22%;}
+
+
+.earlyPrelims .leftImg img {
+    left: -33px;
+}
+.earlyPrelims .rightImgLittle img{
+    right: -22px;
+}
+
+.prelims .nameOfTopFighter{}
+.prelims .nameOfBottomFighter{}
+
+.earlyPrelims  .nameOfTopFighter{}
+.earlyPrelims  .nameOfBottomFighter{}
+
+
+.stat{
+    position:  absolute;
+    top: 100px;
+
+    width: 28%;
+    margin: 0px 35%;
+    height: 74%;
+    border: 0px solid #fbfbfb;
+
+    padding:  0;
+    text-align:  center;
+    z-index: 8;
+}
+
+
+.nameOfMainEvent{
+    width: 100%;
+
+    margin: 0% auto;
+    height: 32px;
+    text-align:  center;
+    color: white;
+    background: #284d8a;
+}
+
+.centerBlock{color:  white;margin: 0% 0%;text-align:  center; padding-top:  0px;height: 8%;padding: 0%;}
+
+.mainEventName, .prelimsName , .earlyPrelimsName{/* float:  left; *//* width: 98%; */text-align:  center;height:  42px;background: #31498e;color: #ffffff;font-size: 23px;/* margin: 0% 1% 0% 1%; */}
+
+.textOfCardName{
+    position:  relative;
+    top: 13%;
+}
+
+.rightImg img{
+    margin-left: 38%;
+}
+
+.backForMainFight{
+    /* width: 50%; */
+    /* float: left; */
+    /* background: black; */
+    flex: 1 1 45%;
+}
+
+
+.mainEventName{
+    margin: 1%;
+}
+
+.centerLine{
+    border: 1px solid #31498e;
+    position:  absolute;
+    top: -3px;
+    left:  50%;
+    height: 97%;
+    z-index: -1;
+}
+
+.statLeft{
+    position: relative;
+    top: -19px;
+    width: 35%;
+    left: -13px;
+}
+
+.nameOfLine{width: 47%;  display:  inline-block;background: #31498e;z-index:  10; margin: 0%;}
+
+.statRight{position: relative;top: -40px;left: 72%;width: 35%;margin:  0;padding:  0;}
+
+.nameOfFighter{
+
+    position:  relative;
+    margin-bottom: 40%;
+    bottom: 6%;
+}
+
+.nameOfFighterLeft{
+    width: 100%;
+    right: 119px!important;
+    top: -44px;
+    font-size: 25px;
+    left: -114px;
+}
+
+.nameOfFighterRight{width: 100%;left: 85%;top: -115px;font-size:  25px;}
+
+.leftImg img{
+    position: absolute;
+    margin-left: -21%;
+    z-index: 1;
+    top: 13%;
+    /* width: 62%; */
+}
+.rightImgLittle img{
+    float: right;
+    position: relative;
+
+    margin-right: -26%;
+    padding-left: 33%;
+    top: 12px;
+}
+.imgOfAllCard{}
+
+.nameOfTopFighter{
+    text-align:  center;
+    background: black;
+    color:  white;
+    z-index:  2;
+    position:  absolute;
+    width:  100%;
+}
+
+.nameOfBottomFighter{
+    position:  absolute;
+    bottom:  0;
+    z-index:  2;
+    width:  100%;
+    text-align:  center;
+    background:  black;
+    color:  white;
+}
+.title span{
+    font-size:20px
+}
+
+.mainSpecialPage{max-width: 1200px !important;background: #ffffff;}
+
+.mainBottomFight{  }
+
+.title{background: #374593;color:  white;text-align:  center; text-transform:  uppercase; margin: 1% 0;padding: 1% 0;}
+
+.blockOfNewsOnBottom{border: 1px solid white;   flex-basis: 25%;}
+
+.promotions ul{
+    display:  flex;
+
+    margin: 1% !important;
+    flex-flow: row wrap;
+}
+
+.imgBlock{}
+
+.allVideoOfCard{
+    overflow:  hidden;
+    margin: 2%;
+}
+.textOfNewsOnBottom{
+    margin:  6px;
+    font-size:  16px;
+}
+
+.videoOfCard{
+    float:  left;
+    width: 14.6%;
+    margin: 1%;
+}
+
+.streams{
+    background: #ffffff;
+    float:  left;
+    width: 100%;
+}
+
+table{/* margin: 2% auto 1% auto; */font-size: 21px;text-transform:  uppercase;}
+
+@media  only screen and (max-width :600px) {
+    .mainContent{
+        margin:3% auto !important;
+    }
+
+
+}
+
+.listOfAvailableStreams{
+    display:  flex;
+    justify-content:  space-around;
+}
+.listOfAvailableStreams div{
+    background: #342f85;
+    padding:  7px;
+    cursor:  pointer;
+}
+
+
+.stream img{
+    width: 100%;
+}
+
+.streams h2{
+    color: white;
+    text-align:  center;
+    margin-top:  1%;
+    padding:  1%;
+}
+
+
+
+.imgOfStreams{
+    flex: 1 1 65%;
+
+    margin: 0 2% 1% 2%;
+}
+.descOfStream{
+    flex: 1 1 30%;
+}
+
+.listOfStream ul li{
+
+    width: 50%;
+    margin: 2% auto;
+    height: 325px;
+    background: white;
+}
+
+.stream{
+
+    display:  flex;
+    flex-flow: row;
+    flex: 1 1 19%;
+    justify-content:  center;
+}
+.mainContent{
+    max-width: 1080px;
+    margin: 0% auto;
+    /* background: #ffffff; */
+}
+
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .streams{
+        width:100%;
+    }
+}
+
+.nameOfEvent{
+    background: #342f85;
+    color: white;
+}
+table th,td{text-align: center;/* padding: 0 !important; *//* margin: 0 !important; */}
+
+footer{
+    overflow:  hidden;
+    width: 100%;
+    background: #162353;
+    height: 50px;
+    /* position: fixed; */
+    text-transform:  uppercase;
+    bottom:  0;
+}
+
+.footerMainBlock{
+    margin:  0 auto;
+    width: 1200px;
+    /* display:  flex; */
+    color:  white;
+    justify-content: c;
+    /* overflow: hidden; */
+    height:  100%;
+}
+
+.footerMainBlock ul li:first-child {
+    margin-left: 0;
+}
+
+.footerMainBlock ul li{
+    color: white;
+    float:  left;
+    margin-left:  13%;
+    position:  relative;
+    /* top: 16px; */
+    cursor:  pointer;
+}
+.footerMainBlock ul li:hover{
+    color: #d81111;
+
+}
+.footerBl{  }
+.footerBl:hover{
+
+    color: #e80e0e;
+    cursor:  pointer;
+}
+@media  only screen and (max-width : 1020px) {
+    .menu li a{
+        padding: 21px 17px!important;
+    }
+    main{
+        margin-top: 0!important;
+    }
+    .logo{
+        margin-top: 0!important;
+
+    }
+
+}
+@media  only screen and (max-width :1277px) {
+    .menu{
+        display: block !important;
+    }
+
+}
+
+@media  only screen and (max-width :860px) {
+    .menu{
+        display: none!important;
+    }
+    .mainBlock{
+        margin: 0 auto;
+    }
+
+    .hidenDropDown {
+        float: right;
+        z-index: 1;
+        position: absolute;
+
+        top: 16px;
+        right: 10%;
+        display: block !important;
+    }
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+
+
+header{
+    background: #152952;
+    overflow: hidden;
+
+    top: 0;
+    width: 100%;
+
+}
+
+.hidenDropDown {
+    display: none;
+}
+
+.menu li a:hover{
+    color: #e80e0e;
+    border-bottom: 3px solid #e80e0e;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+    font-weight: 600;
+}
+
+.menu a {
+    color: #ffffff;
+}
+
+.menu li:first-child a{
+    padding: 34px 6px;
+}
+.menu li a {
+    text-decoration: none;
+    padding: 34px 35px;
+    display: block;
+    border-bottom: 3px solid #323680;
+}
+.menu {
+    float: right;
+    text-decoration: none;
+
+    text-transform:  uppercase;
+    font-size: 16px;
+}
+
+.logo{
+    margin-top: 1%;
+    float: left;
+    width: 22%;
+    height: 60px;
+    border: 1px solid red;
+
+}
+
+@media  only screen and (max-width : 1045px) {
+    nav{
+
+    }
+    .logo{
+
+
+
+    }
+}
+
+@media  only screen and (max-width : 880px) {
+    aside{
+        display: none !important;
+    }
+    main{
+        width: 100%!important;
+    }
+    .textOfArticle{
+        width: 70%;
+    }
+    .mainBlock{
+        margin:0 auto !important;
+    }
+}
+
+
+
+
+.newsSpecialPage{
+
+}
+
+.rightFloatingBlock h2 a{
+    color:#000000
+}
+
+.rightFloatingBlock h2 a:hover{
+    text-decoration:none;
+    color:#473ac2;
+}
+
+@media  only screen and (max-width : 650px) {
+    .newsSpecialPage{
+        margin:10% auto !important
+    }
+}
+
+
+
+
+@media  only screen and (max-width : 620px) {
+
+    main{
+        width: 100%!important;
+    }
+    .lineTextArticle{
+        margin:0 auto;
+        width:90%;
+    }
+    .textOfArticle{
+        width: 70%;
+        margin:0 auto;
+    }
+    .lineImg{
+        width: 51% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 237px !important;
+    }
+    .lineText{
+        width: 59% !important;
+        float:none;
+        clear:both;
+    }
+
+}
+
+hr{
+    margin-bottom: 1rem ;
+    border: 11px solid #25324b !important;
+    padding: 0 !important;
+}
+.rightFloatingBlock h2{
+    font-size:20px
+}
+
+
+@media  only screen and (max-width : 500px) {
+    .lineImg{
+        width: 77% !important;
+        margin:0 auto !important;
+        clear:both !important;
+        float: none !important;
+        height: 269px !important;
+    }
+    .lineText{
+        width: 78% !important;
+        float:none;
+        clear:both;
+    }
+}
+
+.lineTextArticle span{
+    display:table-cell;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: justify;
+}
+
+
+
+.lineTextArticle span:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textOfArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+
+.textForBlockArticle p:hover{
+    color:#167bb9;
+    cursor:pointer;
+}
+.rightNameOfHotNews ul li:hover{
+    background: #88acff;
+    color:white;
+}
+
+
+@media  only screen and (max-width : 740px) {
+    .textOfArticle{
+        width: 94% !important;
+    }
+}
+
+.mainContent{
+    /* background:white; */
+}
+
+
+.mainBlock{width: 100%;/* float:  right; */background: #ffffff!important;overflow:  hidden;margin:  0 auto;}
+
+
+.main .block{
+    float:left;
+}
+
+main{
+    display:  grid;
+    float:left;
+    width: 67%;
+    /* margin-top: 2%; */
+    margin-left: 0%;
+    background: #ffffff;
+    margin:  2% 1% 1% 1%;
+}
+
+
+.textOfTopArticles{
+    position:  relative;
+    margin-left: 0;
+    padding-right: 1px;
+    display:  table;
+    text-align:  center;
+    height:  100px;
+    width: 56%;
+}
+
+.coutOfViews{
+    float:  left;
+    position:  relative;
+    top: 11px;
+}
+
+.statOfArticle{
+    overflow: hidden;
+}
+
+.textOfArticle ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+.imgOfViews{
+    float:  left;
+    margin: 9px 3px 0 17%;
+}
+
+.textOfArticle h2{
+    margin: 7% 0 3% 0;
+}
+
+
+.textOfArticle{margin: 3% auto;width: 85%;position:  relative;}
+
+.imgOfArticle{
+
+    position:  relative;
+
+}
+
+article>header:hover .publish {
+    bottom: 0;
+}
+
+article>header{
+    position: relative;
+    background: none;
+    margin: 4% 2%;
+    background: #ffffff;
+    overflow:  hidden;
+}
+
+article>h2{
+    font-size: 1.75em;
+    line-height: 1;
+    margin: 0 0 40px 20px;
+    color: #5c5044;
+}
+a.more{
+    color: #c2c2c2;
+    border:2px solid #c2c2c2;
+    padding: 7px 20px;
+    display: inline-block;
+
+
+}
+
+
+
+.icons{
+    height: 20px;
+}
+
+.coutOfCommentsAndViews{
+    display: inline-block;
+    bottom: 3px;
+    position: relative;
+}
+
+.views{
+    position: relative;
+    left: 5px;
+}
+
+.themeOfArticle{
+    position:  relative;
+    top: 0;
+    left:  16px;
+    border: 1px solid black;
+}
+
+.div-subscribe{
+    position: relative;
+    width: 100%;
+}
+
+.rightNameOfHotNews ul li:last-child{
+    border:none;
+}
+
+.newsImg{width: 86%;height: 400px;margin: 2% auto;}
+
+.newsImg img{width: 100%;height: 100%;*margin-bottom: 6px; }
+
+.clr{
+    clear:both;
+}
+
+
+.pager{
+    overflow: hidden;
+    border:1px solid #e1e1e0;
+    font-size:1.24em;
+    width: 70%;
+}
+.pager a{
+    text-decoration: none;
+}
+.pager a:hover{
+    text-decoration: underline;
+}
+
+.previous-link{
+    float: left;
+}
+.next-link{
+    float: right;
+}
+
+
+.data{float: left; display:  inline-block; }
+
+.tag{
+    display:  inline-block;
+    float: right;
+
+
+    background: #603fff;
+    color: white;
+}
+
+
+.promotionList{
+    cursor: default !important;
+
+
+}
+.promotionList select{
+    width: 100%;
+    margin: 0% 0% 0 0%;
+    text-transform:  uppercase;
+}
+
+
+.hotNews{
+    overflow:  hidden;
+    margin:  1% auto;
+    width: 97%;
+    border: 1px solid #565656;
+    background: #e1e1e1;
+}
+
+.hotNews img{
+    float:  left;
+    width: 100%;
+    height: 416px;
+}
+
+.nameOfHotNews{
+    position:  absolute;
+    top: 82%;
+    width: 100%;
+    height: 76px;
+    background: rgba(0, 0, 0, 0.8);
+    color:  white;
+    text-align: justify;
+    font-size:  18px;
+}
+
+.nameOfHotNews p{
+    width: 95%;
+    margin: 1% auto;
+}
+
+.rightNameOfHotNews {
+    display: table;
+    width: 40%;
+    text-align: justify;
+    margin: 0 0;
+    float:  left;
+
+}
+.rightNameOfHotNews ul li{
+    margin: 0 0;
+    height: 83px;
+    cursor:  pointer;
+    border-bottom: 1px solid #565656;
+    width: 100%;
+    display:  table;
+
+    text-align:  center;
+}
+
+.nameOfImgArticle{
+    position:  relative;
+    overflow:  hidden;
+    width:  60%;
+    float:  left;
+}
+
+.tagOfHotNews{
+    display:  inline-block;
+    float: right;
+    margin:  1%;
+    background: #584aff;
+    position:  absolute;
+    bottom: 0;
+    right:  0;
+}
+
+.calendarData ul{
+    margin-bottom:0;
+}
+
+.dataOfHotNews{
+    display:  inline-block;
+    float: left;
+    margin: 1%;
+    position:  absolute;
+    bottom:  0;
+}
+
+
+
+@media  only screen and (max-width :585px) {
+
+
+    .textOnMainArticle h2 {
+        font-size: 0.9rem !important;
+        font-weight: 600;
+    }
+
+}
+
+.blockNewsTag{
+    background: blue;
+    color: white;
+    float: right;
+    margin: 2%;
+}
+.blockNewsData{
+
+    color: black;
+    float: left;
+    position:  relative;
+
+    margin: 2%;
+}
+
+.rightFloatingBlock{
+    float: left;
+    width: 21%;
+    text-align:  center;
+    margin: 0 0%;
+    background: #ffffff;
+    color: #ab0000;
+
+    height:  800px;
+    overflow:  scroll;
+    overflow-x: hidden;
+    direction: rtl;
+}
+.rightFloatingBlock ul li{
+
+    margin: 4% 1% 4% 1%;
+    font-size: 11px;
+    font-weight: 500;
+}
+.rightFloatingBlock iframe{
+    width: 100%;
+    height: 130px;
+}
+
+.blockArticle{
+    width: 46%;
+    float:  left;
+    background: #ffffff;
+    margin: 2% 2%;
+
+}
+
+.blockArticle img{
+
+    width:  100%;
+    height:  100%;
+}
+
+.textForBlockArticle{
+    position:  relative;
+
+    margin-top: -1%;
+    padding: 5px;
+}
+
+.lineArticle{
+
+    margin: 2%;
+    overflow:  hidden;
+    background:  white;
+}
+
+
+
+.lineTextArticle {
+    clear:  both;
+    top: 0px;
+    margin-top: 0px;
+    position:  relative;
+
+
+    display:  table;
+    text-align:  center;
+    height:  116px;
+}
+
+
+
+.lineTag{
+    float:  right;
+    background:  blue;
+    color:  white;
+    display:  inline-block;
+
+    position:  relative;
+}
+
+.lineData{
+    float:  left;
+
+    padding:  0;
+    margin:  0;
+}
+
+
+
+.textOfTopArticles span{
+    display:table-cell;
+    vertical-align:middle;
+}
+.textOfTopArticles span:hover{
+    color:#68a2ff;
+
+}
+
+
+.lineArticle img{width:  100%;height:  100%;}
+
+.lineText{
+    display: table;
+
+    width: 54.9%;
+    margin:  0 auto;
+    height: 163px;
+}
+.lineImg{
+    float:  left;
+    width: 233px;
+    height: 170px;
+    margin:  0 auto;
+}
+
+.rightNameOfHotNews ul li span{
+    display:  table-cell;
+    vertical-align:  middle;
+}
+.searchVideo{
+    margin: 2% auto;
+    width: 59%;
+    height:  39px;
+}
+.searchVideo input{
+    width:  100%;
+    height:  100%;
+}
+
+
+
+.blockVideo{
+    display:  flex;
+    width: 30%;
+    flex-flow: column;
+    min-width: 250px;
+    margin: 1%;
+}
+
+.videoImg{}
+
+.textOfVideo{
+    text-align:  center;
+    font-size:  20px;
+}
+
+.textOfTopArticles {
+    float: left;
+    display: table;
+    width: 56%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textOfTopArticles h4 {
+    vertical-align: middle;
+    display: table-cell;
+}
+.textOfTopArticles h4:hover {
+    color: #342f85;
+    cursor: pointer;
+}
+
+
+@media  only screen and (max-width :872px) {
+    aside{
+        display:none !important;
+    }
+    .videoMainBlock{
+        width:100% !important;
+    }
+}
+
+
+@media  only screen and (max-width :600px) {
+
+    .commonBlock{
+        margin:10% auto !important
+    }
+}
+
+
+@media  only screen and (max-width :700px) {
+    .mainEventVideo{
+        width: 77% !important;
+        margin:  0 auto;
+        height: 360px !important;
+        top: 0 !important;
+        float:  none !important;
+    }
+    .listOfCards{float: none !important;width: 78% !important;}
+    .videoOfCards{
+        float:  none !important;
+        overflow:  hidden;
+        margin:  0 auto;
+        width: 77% !important;
+    }
+
+}
+
+
+.videoBlock{
+    overflow:  hidden;
+    width: 97%;
+    margin: 4% auto;
+
+    background: #ffffff;
+}
+
+.mainEventVideo{
+    float:  left;
+    width: 37%;
+    height: 250px;
+    color: black;
+    top: 40px;
+    position:  relative;
+}
+
+.listOfCards{
+    float:  left;
+    margin:  0 auto;
+    width: 63%;
+}
+.listOfCards ul li{
+    float:  left;
+    margin: 1%;
+    width: 31%;
+    height:  26px;
+}
+
+.videoOfCards{
+    float:  left;
+    width: 63%;
+}
+.videoOfCards ul li {
+    float:  left;
+    width: 46%;
+    height: 165px;
+    margin:  0 auto;
+    margin: 2%;
+}
+
+.streamsOnVideo{
+    color: white;
+    text-align:  center;
+    overflow:  hidden;
+}
+.streamsOnVideo ul li{
+    float:  left;
+    width: 19%;
+    height: 160px;
+    margin: 1% 3%;
+}
+
+.allFightsFighters{
+    text-align:  center;
+    color: black;
+    overflow:  hidden;
+}
+
+.allFightsFighters ul li{
+    float:  left;
+    margin: 1% 1%;
+    width: 31%;
+    height:  130px;
+    color:  black;
+}
+.specialPageVideo{max-width: 1080px;overflow:  hidden;background: #ffffff;}
+
+.videoMainBlock{
+    background: #ffffff !important;
+    width: 100%;
+    float:  left;
+}
+.fights{
+    display:  flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.nameOfPromotion span{
+    font-size: 30px;
+}
+
+.nameOfPromotion{
+    text-align:  center;
+    background: #2f3a7d;
+    color:  white;
+    text-transform:  uppercase;
+}
+
+.fights ul li{width: 31%;height:  235px;float:  left;margin: 1%;}
+
+.mainBlockFighters{
+    margin: 2% auto;
+    width: 100%;
+
+    overflow:  hidden;
+    position:  relative;
+    background: #ffffff;
+    float:  left;
+}
+
+.weightCat{
+    display:  flex;
+    flex-flow:  column;
+    margin:  0 2%;
+}
+
+.man{
+    margin:  2% 0;
+}
+
+.chemp:hover{
+    border:4px solid #35288a;
+    cursor:pointer;
+
+}
+.contenders>ul>li{
+
+    border: 4px solid #ffffff;
+}
+.contenders>ul>li:hover{
+
+    border: 4px solid #35288a;
+}
+.contenders>ul{
+    display:  flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+}
+
+
+@media  only screen and (max-width : 700px) {
+    .fightersSpecialPage{
+        margin:11% auto !important
+    }
+}
+
+
+@media  only screen and (max-width : 575px) {
+    .chemp{
+        width: 255px;
+        margin: 5% auto !important;
+        clear:both;
+    }
+
+}
+
+@media  only screen and (max-width : 860px) {
+    .mainBlockFighters{
+        margin: 0% auto !important;
+    }
+}
+
+
+.chemp{
+    width: 188px;
+    margin: 3% auto;
+    border:  4px solid white;
+}
+
+.chemp img{width: 100%;height: 100%;background: #7b7b7b;}
+
+.contenders{
+    overflow:  hidden;
+}
+
+.contenders ul li{
+    margin: 1% 1.5%;
+    cursor:  pointer;
+}
+.contenders ul li img{
+    width:  100%;
+    height: auto;
+    overflow:  hidden;
+    background: #828282;
+}
+
+.infoAboutFighter{
+    height:  100px;
+    position: relative;
+}
+.infoAboutFighter ul li{ color: #000000;width: 96%;text-align:  center;overflow:  hidden;}
+
+.searchFighters{margin: 3% auto 2% auto;width: 37%;height: 45px;font-size: 38px;}
+
+.searchFighters input{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+
+.weightCatMan{
+    overflow:  hidden;
+    float:  left;
+    margin-left: 2%;
+}
+.weightCatMan ul li{
+    margin-top: 4%;
+    color:  white;
+    text-align:  center;
+}
+
+.fightersSpecialPage{
+    overflow:  hidden;
+    max-width: 1080px !important;
+    background: #ffffff;
+}
+
+.weightCatWomen{
+    overflow:  hidden;
+    position:  relative;
+    margin-right: 2%;
+    float:  right;
+}
+.weightCatWomen ul li{
+    margin: 4% 0;
+    text-align:  center;
+}
+
+
+.newsPopular{
+    /* clear: both; */
+}
+
+@media  only screen and (max-width :879px) {
+    aside{
+        display:none !important;
+    }
+    .mainBlockFighters{
+        width:100%;
+    }
+}
+.footerMainBlock ul{
+    width:100%;
+    display:  flex;
+    align-items:  center;
+    height:  100%;
+}
+
+.blockWithFight ul{
+    display:flex;
+    flex-flow: row wrap;
+    /* margin: 0% !important; */
+    justify-content: space-evenly;
+    /* height: 100%; */
+}
+.chempInfo{
+    height: 81px;
+}
+.chempInfo ul li{
+    height: 26px;
+    color: black;
+}
+
+.nameOfWeightCat{
+    background: #342f85;
+    color: white;
+    text-align:  center;
+    font-size:  20px;
+    text-transform: uppercase;
+}
+.detailFighters{
+    width: 69%;
+    float:  left;
+}
