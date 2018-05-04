@@ -8,18 +8,9 @@ let express = require('express'),
 let video = require("./controllers/video");
 
 
-let router = express.Router();
-
-router.route('/video').get(video.video);
-
-
-
-
-console.log(video);
 
 let port = process.env.PORT || 3000;
 // let rootPath = path.join(__dirname,'../');
-
 
 
 app.use(bodyParser.urlencoded({extended:true}));
@@ -28,8 +19,15 @@ app.use(bodyParser.json());
 
 //static path to stylesheets
 app.use('/public',express.static(__dirname + '/public'));
-
+//img
 app.use('/img',express.static(__dirname + '/public/img'));
+
+app.use('/controllers',express.static(__dirname + '/controllers'));
+app.use('/models',express.static(__dirname + '/models'));
+
+
+
+app.use('/video',video);
 
 
 app.set('view engine','ejs');
@@ -73,7 +71,6 @@ app.get('/streams',(req,res) =>
 {
     res.render('../src/views/streams')
 });
-
 
 
 app.listen(port,()=>{

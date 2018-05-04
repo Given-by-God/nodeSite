@@ -4177,8 +4177,8 @@ main img{
 .newsSpecialPage{
     max-width: 1080px !important;
     display:  grid;
-    border-left: 1px solid black;
-    border-right:  1px solid black;
+    /* border-left: 1px solid black; */
+    /* border-right:  1px solid black; */
 }
 
 .rightFloatingBlock h2 a{
