@@ -14,19 +14,19 @@
 <div class="specialBlockForDetailPage">
 
 
-    <!--<div class="titleCommon">-->
-    <!--<span>-->
-    <!--имя бойца-->
-    <!--</span>-->
-    <!--</div>-->
+    <div class="titleCommon">
+    <span>
+    имя бойца
+    </span>
+    </div>
 
 
     <div class="mainBlock detailFighters">
 
 
-        <div class="nameOfFighterDetail">
-            <p>Тони фергюссон</p>
-        </div>
+        <!--<div class="nameOfFighterDetail">-->
+            <!--<p>Тони фергюссон</p>-->
+        <!--</div>-->
 
         <div class="infoAboutFighterDetail">
             <div class="imgOfFighter">
@@ -34,106 +34,87 @@
             </div>
 
             <div class="detailInfo">
-                <div class="birthAndAge">
-                    <ul>
-                        <li>
-                            <span class="boldDetail">Дата рождения :</span> 1984-02-12
-                        </li>
-                        <li>
-                            <span class="boldDetail">Возраст :</span> 34
-                        </li>
-                    </ul>
-                </div>
+
 
                 <div class="weightHeightCat">
-                    <ul>
-                        <li>
-                            <p>Вес</p>
-                            <ul>
-
-                                <li class="dark">61 кг</li>
-                                <li>135 lbs</li>
-
-                            </ul>
-                        </li>
-                        <li>
-                            <p>Рост</p>
-                            <ul>
-
-                                <li class="dark">61 кг</li>
-                                <li>135 lbs</li>
-
-                            </ul>
-                        </li>
-                        <li>
-                            <p>Весовая категория</p>
-                            <ul>
-
-                                <li class="dark">тяжелая</li>
-                                <li>heavyweight</li>
-
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <div class="twoTable">
-
-                        <table class="winsFight">
-
-                            <tr>
-                                <th>победы</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>ko/tko</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>решением</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>ko/tko</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>решением</th>
-                                <th class="countFight">2</th>
-                            </tr>
+                    <span class="uppercaseMainLabel">Дата рождения : </span><span>123 123 21 3</span><br>
+                    <span class="uppercaseMainLabel">Возраст : </span><span> 34 </span>
 
 
-
-                        </table>
-
-                        <table class="losesFight">
-
-                            <tr>
-                                <th>победы</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>ko/tko</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>решением</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>ko/tko</th>
-                                <th class="countFight">2</th>
-                            </tr>
-                            <tr>
-                                <th>решением</th>
-                                <th class="countFight">2</th>
-                            </tr>
-
-
-
-                        </table>
+                    <div class="insideThreeBlock">
+                            <div><p class="uppercaseMainLabel">рост</p>
+                                <div class="">
+                                    <span class="secondPar">61 кг </span><br>
+                                    145 lbs
+                                </div>
+                            </div>
+                            <div><p class="uppercaseMainLabel">вес</p>
+                                <div class="">
+                                    <span class="secondPar">61 кг </span><br>
+                                    145 lbs
+                                </div>
+                            </div>
+                            <div><p class="uppercaseMainLabel">весовая категория</p>
+                                <div class="">
+                                    <span class="secondPar">61 кг </span> <br>
+                                    145 lbs
+                                </div>
+                            </div>
+                    </div>
+                    <div class="recordOfFighter">
+                        <span class="record"> рекорд </span>
+                        <span class="record">1-2-3-4</span>
                     </div>
 
                 </div>
+
+
+                <script>
+                    window.onload = function () {
+                        let num =5;
+                        let chart = new CanvasJS.Chart("chartContainer", {
+                            exportEnabled: true,
+                            animationEnabled: true,
+
+                            legend:{
+                                cursor: "pointer",
+                                itemclick: explodePie
+                            },
+                            toolbar: false,
+                            data: [{
+                                type: "pie",
+                                // showInLegend: true,
+                                startAngle: 60,
+                                toolTipContent: "{name}: <strong>{y}%</strong>",
+                                indexLabel: "{name} - {y}%",
+                                dataPoints: [
+                                    { y: 26, name: `побед нокаутом ${num}`, exploded: true,color:'#3cff00' },
+                                    { y: 20, name: "побед сабмишеном",color:'#61ff00' },
+                                    { y: 20, name: "побед решением",color:'#96ff00' },
+                                    { y: 5, name: "без результата",color:'#77806d' },
+                                    { y: 3, name: "проиграно нокаутом",color:'#ff0900' },
+                                    { y: 3, name: "проиграно решением",color:'#ff2800' },
+                                    { y: 7, name: "проиграно сабмишеном",color:'#ff4900' },
+                                    { y: 17, name: "ничьи",color:'#5c5044' }
+                                ]
+                            }]
+                        });
+                        chart.render();
+                    }
+
+                    function explodePie (e) {
+                        if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                            e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+                        } else {
+                            e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+                        }
+                        e.chart.render();
+
+                    }
+                </script>
+
+                <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
             </div>
         </div>
 

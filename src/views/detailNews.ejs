@@ -11,83 +11,53 @@
 
 <body>
 
-
 <div class="commonBlock newsSpecialPage">
 
     <h1>
-        Morning Report: Firas Zahabi says ‘no doubt about it’ Georges St-Pierre is the greatest fighter of all-time
+        <%= data[0].title %>
     </h1>
+    <div class="dataAndTagMain">
+        <div class="data"><%=data[0].date%></div>
+        <!--<div class="tag">tag</div>-->
+    </div>
     <div class="mainBlock mainContent">
 
         <main class="detailNews">
             <div class="textOnDetailNews">
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi architecto assumenda consequatur doloremque doloribus, error et excepturi facilis fugiat impedit iure laudantium minima modi nemo neque quae temporibus voluptatem. Amet doloremque ea eos minus quaerat quam quia quidem quod rerum ullam ut, vel veritatis voluptates? Alias at consectetur consequatur corporis dicta distinctio ducimus ea earum facilis, iusto maiores neque nobis, quos reiciendis repellat repellendus veritatis. Accusantium ad, at aut autem beatae culpa cum cumque debitis eos et eveniet expedita id impedit iure laudantium nisi obcaecati porro quisquam ratione rem reprehenderit, sint sit soluta sunt tempore temporibus ullam? Aut, inventore?
 
-                </p>
+                <%- data[0].desc %>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi architecto assumenda consequatur doloremque doloribus, error et excepturi facilis fugiat impedit iure laudantium minima modi nemo neque quae temporibus voluptatem. Amet doloremque ea eos minus quaerat quam quia quidem quod rerum ullam ut, vel veritatis voluptates? Alias at consectetur consequatur corporis dicta distinctio ducimus ea earum facilis, iusto maiores neque nobis, quos reiciendis repellat repellendus veritatis. Accusantium ad, at aut autem beatae culpa cum cumque debitis eos et eveniet expedita id impedit iure laudantium nisi obcaecati porro quisquam ratione rem reprehenderit, sint sit soluta sunt tempore temporibus ullam? Aut, inventore?
-
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi architecto assumenda consequatur doloremque doloribus, error et excepturi facilis fugiat impedit iure laudantium minima modi nemo neque quae temporibus voluptatem. Amet doloremque ea eos minus quaerat quam quia quidem quod rerum ullam ut, vel veritatis voluptates? Alias at consectetur consequatur corporis dicta distinctio ducimus ea earum facilis, iusto maiores neque nobis, quos reiciendis repellat repellendus veritatis. Accusantium ad, at aut autem beatae culpa cum cumque debitis eos et eveniet expedita id impedit iure laudantium nisi obcaecati porro quisquam ratione rem reprehenderit, sint sit soluta sunt tempore temporibus ullam? Aut, inventore?
-
-                </p>
-                <p>
-                    <cite>https://www.mmafighting.com</cite>
+                    <cite><%= data[0].cite %></cite>
                 </p>
 
             </div>
-            <img class="mainImgOnDetailNews" src="/img/testNews.jpg" alt="">
+            <img class="mainImgOnDetailNews" src="<%= data[0].imgDetail %>" alt="<%= data[0].title %>">
 
             <hr>
             <h3 class="newNews">Похожие</h3>
+
+
+            <% for (let i = 0 ;i <= similarNews.length-1 ; i++){%>
             <article>
                 <div class="articleOnMain">
                     <div class="imageOnMainArticle">
-                        <a href="#">
-                            <img src="/img/khabibMiddle.jpg"
-                                 alt="">
+
+                        <a href="<%=similarNews[i].titleEu%>">
+                            <img src="<%=similarNews[i].img%>"
+                                 alt="<%=similarNews[i].title%>">
                         </a>
                     </div>
 
                     <div class="textOnMainArticle">
                         <div class="dataAndTagMain">
-                            <div class="data">data</div>
-                            <div class="tag">tag</div>
+                            <div class="data"><%=similarNews[i].date%></div>
+                            <div class="tag"><%=similarNews[i].tag%></div>
                         </div>
                         <h2>
-                            <a href="#">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
-                            </a>
-                        </h2>
-
-
-                    </div>
-
-                </div>
-            </article>
-            <article>
-                <div class="articleOnMain">
-                    <div class="imageOnMainArticle">
-
-                        <a href="#">
-                            <img src="/img/khabibMiddle.jpg"
-                                 alt="">
-                        </a>
-                    </div>
-
-                    <div class="textOnMainArticle">
-                        <div class="dataAndTagMain">
-                            <div class="data">data</div>
-                            <div class="tag">tag</div>
-                        </div>
-                        <h2>
-                            <a href="#">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+                            <a href="/news/<%=similarNews[i].id%>/<%=similarNews[i].titleEu%>">
+                                <%=similarNews[i].title%>
                             </a>
                         </h2>
 
@@ -95,33 +65,7 @@
 
                 </div>
             </article>
-            <article>
-
-                <div class="articleOnMain">
-                    <div class="imageOnMainArticle">
-                        <a href="#">
-                            <img src="/img/khabibMiddle.jpg"
-                                 alt="">
-                        </a>
-                    </div>
-
-                    <div class="textOnMainArticle">
-                        <div class="dataAndTagMain">
-                            <div class="data">data</div>
-                            <div class="tag">tag</div>
-                        </div>
-                        <h2>
-                            <a href="#">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
-                            </a>
-                        </h2>
-
-
-                    </div>
-
-                </div>
-
-            </article>
+            <%}%>
             <hr>
 
             комменты от вк
@@ -132,24 +76,26 @@
             <div class="nameOfAsideRight">
                 <!--<div>Календарь</div>-->
                 <!--<div>Бойцы</div>-->
-                популярное
+                главные новости
             </div>
             <div class="centerBlock">
 
                 <div class="scrollRightMenu ">
+
+                    <%for(let i =0 ;i <= latest.length-1 ; i++){%>
                     <article>
                         <div class="video">
-                            <div class="videoImg">
-                                <a href="">
-                                    <img src="/img/khabibMiddle.jpg" alt="">
-                                </a>
-                            </div>
+                            <!--<div class="videoImg">-->
+                                <!--<a href="">-->
+                                    <!--<img src="/img/khabibMiddle.jpg" alt="">-->
+                                <!--</a>-->
+                            <!--</div>-->
                             <div class="nameOfVideo">
 
 
                                 <h2>
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
-                                        impedit.
+                                    <a href="/news/<%=latest[i].id%>/<%=latest[i].titleEu%>">
+                                        <%=latest[i].title%>
                                     </a>
                                 </h2>
 
@@ -157,46 +103,46 @@
                             </div>
                         </div>
                     </article>
+                    <%}%>
                 </div>
             </div>
 
-            <div class="centerBlock">
+            <!--<div class="centerBlock">-->
 
 
 
-                <div class="scrollRightMenu ">
+                <!--<div class="scrollRightMenu ">-->
 
-                    <article>
-                        <div class="video">
-                            <div class="videoImg">
-                                <a href="">
-                                    <img src="/img/khabibMiddle.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="nameOfVideo">
-
-
-                                <h2>
-                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
-                                        impedit.
-                                    </a>
-                                </h2>
+                    <!--<article>-->
+                        <!--<div class="video">-->
+                            <!--&lt;!&ndash;<div class="videoImg">&ndash;&gt;-->
+                                <!--&lt;!&ndash;<a href="">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<img src="/img/khabibMiddle.jpg" alt="">&ndash;&gt;-->
+                                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                            <!--<div class="nameOfVideo">-->
 
 
-                            </div>
-                        </div>
-                    </article>
+                                <!--<h2>-->
+                                    <!--<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,-->
+                                        <!--impedit.-->
+                                    <!--</a>-->
+                                <!--</h2>-->
 
 
-                </div>
-            </div>
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</article>-->
+
+
+                <!--</div>-->
+            <!--</div>-->
         </aside>
 
         <div class="clr"> </div>
     </div>
 
 </div>
-
 
 </body>
 

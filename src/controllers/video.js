@@ -1,23 +1,10 @@
-// let express = require('express'),
-//     app = express();
+let express = require('express'),
+    router = express.Router();
 
-
-
-
-// module.exports = function(app) {
-//     app.get('/video', (req, res) => {
-//         res.render('../src/views/video');
-//         console.log('video is include');
-//     });
-// };
-
-module.exports = {
-    video: function (req, res) {
-        res.render('../src/views/video');
-        console.log('video is include');
+router.route('/')
+    .get((req,res)=>{
+       res.render('../src/views/video');
     }
-};
+    );
+module.exports = router;
 
-
-
-// let exports = module.exports = {};

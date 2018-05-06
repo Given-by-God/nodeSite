@@ -9,8 +9,33 @@
 .memesTitle{
     margin: 1%;
 }
+
+
+
+.record{
+    font-size: 24px;
+    text-transform:  uppercase;
+}
+.uppercaseMainLabel{
+    font-weight:600;
+    font-size: 20px;
+}
+.recordOfFighter{width:  100%;text-align:  center;margin-top: 4%;}
+
+.secondPar{color: #888888;}
+.insideThreeBlock{
+    display:  flex;
+    justify-content:  space-between;
+    flex-flow:  row wrap;
+}
+.insideThreeBlock div{}
+#chartContainer{clear:both;/* margin: 0% 0; */}
 .eventFilter{
-    background: white !important;
+    background: #f4f4f2 !important;
+}
+
+.btn.promotion{
+    background:#374593;
 }
 
 .imgOfEachCardNews img{
@@ -18,8 +43,8 @@
 }
 
 .eventFilter .btn-primary{
-    background: #31498e;
-    border:#31498e;
+    background: #374593;
+    border: 1px solid #162353;
 }
 
 
@@ -260,7 +285,7 @@ table{
 
 
 .nameOfVideo h2 a{
-    color:white;
+    /* color:white; */
 }
 .blGrid7 .gridImg,.blGrid8 .gridImg{
 
@@ -269,7 +294,7 @@ table{
 
 .nameOfVideo h2 a:hover
 {
-    color:#c3c3c3;
+    /* color:#c3c3c3; */
 }
 .onlyNewsRightMenu{
     /* width: 29%; */
@@ -286,17 +311,7 @@ table{
     width: 100%;
 }
 
-.nameOfAsideRight{
-
-
-    border-bottom:  1px solid white;
-    padding-bottom: 5px;
-    margin-bottom: 18px;
-    text-align:  center;
-    text-transform:  uppercase;
-    font-weight: bold;
-    font-size: 28px;
-}
+.nameOfAsideRight{/* border-bottom:  1px solid white; *//* padding-bottom: 5px; *//* margin-bottom: 18px; *//* text-align:  center; *//* text-transform:  uppercase; *//* font-weight: bold; *//* font-size: 28px; */}
 
 
 
@@ -305,9 +320,8 @@ h2{
 }
 
 a{
-    color:black;
-    text-decoration:none;
-
+    /* color:black; */
+    /* text-decoration:none; */
 }
 
 a:hover{
@@ -338,12 +352,10 @@ ul{
 
 
 .video{
-    display:  flex;
-    flex-flow: column nowrap;
-    justify-content:  center;
-
-
-    margin-bottom: 11px;
+    /* display:  flex; */
+    /* flex-flow: column nowrap; */
+    /* justify-content:  center; */
+    /* margin-bottom: 11px; */
 }
 
 .videoImg img{
@@ -559,6 +571,9 @@ body{
 @media  only screen and (max-width : 880px) {
     .bottomArticle {
         max-width: 100% !important;
+    }
+    .detailFighters{
+        width:100% !important;
     }
 }
 
@@ -2199,16 +2214,13 @@ article:last-child{
 }
 
 .infoAboutFighterDetail{
-    overflow:  hidden;
-    margin: 1%;
+    /* overflow:  hidden; */
+    /* margin: 1%; */
 }
 
 
 .imgOfFighter{
-    float:  left;
-
-
-
+    /* float:  left; */
 }
 .imgOfFighter img{
     width: 100%;
@@ -2236,8 +2248,8 @@ article:last-child{
 }
 
 .weightHeightCat{
-    float:  left;
-    width: 100%;
+    /* float:  left; */
+    /* width: 100%; */
 }
 .weightHeightCat ul li{
     float:  left;
@@ -2256,13 +2268,9 @@ article:last-child{
 
 .mainBlock{/* float:  left; *//* width: 68%; */}
 .detailInfo{
-    overflow:  hidden;
-
-    position:  relative;
-    margin: 1% 1% 1% 2%;
-
-
-
+    /* overflow:  hidden; */
+    /* position:  relative; */
+    /* margin: 1% 1% 1% 2%; */
 }
 
 .nextFight{}
@@ -2684,7 +2692,7 @@ table.main{
     width: 100%;
     border: 0px solid #374593;
     /* background: radial-gradient(100% 44% ellipse at 50% 86%,#2e2e2e -16%,#b3b3b3,#000); */
-    background: #3d3d3d;
+    /* background: #3d3d3d; */
     min-width:  399px;
 }
 .losesFight .countFight{
@@ -2793,7 +2801,7 @@ table{
 
 
 .nameOfVideo h2 a{
-    color:white;
+    /* color:white; */
 }
 .blGrid7 .gridImg,.blGrid8 .gridImg{
 
@@ -2802,14 +2810,14 @@ table{
 
 .nameOfVideo h2 a:hover
 {
-    color:#c3c3c3;
+    /* color: #000000; */
 }
 .onlyNewsRightMenu{
     /* width: 29%; */
     margin-right: 1%;
-    border: 15px solid #25374a;
-    background: #25374a;
-    color: white;
+    border: 15px solid #f7f7f7;
+    background: #f7f7f7;
+    /* color: white; */
     overflow: hidden;
 }
 
@@ -2819,17 +2827,7 @@ table{
     width: 100%;
 }
 
-.nameOfAsideRight{
-
-
-    border-bottom:  1px solid white;
-    padding-bottom: 5px;
-    margin-bottom: 18px;
-    text-align:  center;
-    text-transform:  uppercase;
-    font-weight: bold;
-    font-size: 28px;
-}
+.nameOfAsideRight{border-bottom: 1px solid #cccccc;padding-bottom: 5px;margin-bottom: 18px;text-transform:  uppercase;/* font-weight: bold; */font-size: 22px;color: #7b7b7b;}
 
 
 
@@ -2838,13 +2836,12 @@ h2{
 }
 
 a{
-    color:black;
+    color: #070807;
     text-decoration:none;
-
 }
 
 a:hover{
-    color:#732335;
+    color: #732335;
     text-decoration:none;
 }
 
@@ -2867,21 +2864,19 @@ ul{
 
 
 .video{
-    display:  flex;
-    flex-flow: column nowrap;
-    justify-content:  center;
-
+    /* display:  flex; */
+    /* flex-flow: column nowrap; */
+    /* justify-content:  center; */
+    /* align-items: start; */
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 7%;
 }
 
 .videoImg img{
     width:  100%;
 }
 
-.nameOfVideo{
-
-
-    margin-top: 4%;
-}
+.nameOfVideo{/* margin-top: 4%; */text-align: start;/* color: white; */}
 
 .textOnMainArticle:hover{
 
@@ -3142,7 +3137,7 @@ body{
 }
 
 
-.imageOnMainArticle{ min-width: 120px;}
+.imageOnMainArticle{min-width: 120px;width: 216px;}
 @media  only screen and (max-width : 560px) {
     .filterFlex{flex-flow: row wrap !important;  }
 
@@ -3171,7 +3166,7 @@ body{
     margin: 0 auto;
     background: #162353;
     text-transform:  uppercase;
-    color: white;
+    color: #f4f4f2;
     width: 100%;
 }
 .filter ul li{
@@ -4166,6 +4161,7 @@ a.more{
 .mainImgOnDetailNews{
     order: -1;
     margin-bottom: 2%;
+    max-width:  100%;
 }
 main img{
 
@@ -4177,8 +4173,8 @@ main img{
 .newsSpecialPage{
     max-width: 1080px !important;
     display:  grid;
-    border-left: 1px solid black;
-    border-right:  1px solid black;
+    /* border-left: 1px solid black; */
+    /* border-right:  1px solid black; */
 }
 
 .rightFloatingBlock h2 a{
@@ -4747,16 +4743,17 @@ article:last-child{
 }
 
 .infoAboutFighterDetail{
-    overflow:  hidden;
-    margin: 1%;
+    display:  flex;
+    /* overflow:  hidden; */
+    /* margin: 1%; */
+    flex-flow:  row wrap;
 }
 
 
 .imgOfFighter{
-    float:  left;
-
-
-
+    /* float:  left; */
+    flex: 1 1 20%;
+    /* min-width:  100px; */
 }
 .imgOfFighter img{
     width: 100%;
@@ -4784,8 +4781,10 @@ article:last-child{
 }
 
 .weightHeightCat{
-    float:  left;
+    /* float:  left; */
     width: 100%;
+    /* margin-bottom: 5%; */
+    margin:  0 auto;
 }
 .weightHeightCat ul li{
     float:  left;
@@ -4804,13 +4803,12 @@ article:last-child{
 
 .mainBlock{/* float:  left; *//* width: 68%; */}
 .detailInfo{
-    overflow:  hidden;
-
-    position:  relative;
-    margin: 1% 1% 1% 2%;
-
-
-
+    flex: 1 1 80%;
+    /* overflow:  hidden; */
+    /* position:  relative; */
+    /* margin:  0 auto; */
+    /* margin: 1% 1% 1% 2%; */
+    /* width: 80%; */
 }
 
 .nextFight{}
@@ -4883,8 +4881,8 @@ article:last-child{
 .specialBlockForDetailPage{
     max-width: 1080px;
     overflow: hidden;
-    background: white;
-    margin: 8% auto;
+    /* background: #e8e8e8; */
+    margin: 3% auto;
 }
 
 
@@ -5332,6 +5330,7 @@ article:last-child{
     margin: 0;
     display: flex;
     width:  100%;
+    padding-bottom: 4px;
     flex-flow: row wrap;
 }
 
@@ -5341,12 +5340,12 @@ article:last-child{
 ;margin: 0 1% 0 1%;width: 3%; font-size:  19px;text-align:  center;color:  white;cursor:  pointer;}
 
 
-.dateOfEvent{overflow:  hidden; margin: 0%;background: #4a4a4a;color: white;}
+.dateOfEvent{overflow:  hidden;margin: 0%;background: #162353;color: white;}
 
 .dateOfEvent ul li:first-child{
 }
 
-.dateOfEvent ul li{float:  left;margin:  0 2% 0 1%;width:  12%;text-align:  center;height:  35px;font-size:  21px;}
+.dateOfEvent ul li{float:  left;margin:  0 2% 0 1%;width:  12%;text-align:  center;height:  35px;font-size:  21px;/* color:  yellow; */}
 
 .topMenuOfCard{overflow:  hidden;font-size:  18px;background: #3f3f3f;color:  white;}
 .topMenuOfCard  li{
@@ -5372,7 +5371,7 @@ article:last-child{
 }
 .cardWindow{
     overflow:  hidden;
-    background: #3d3d3d;
+    /* background: #3d3d3d; */
     display:  flex;
     width:  100%;
     flex-flow: row wrap;
@@ -5550,7 +5549,7 @@ article:last-child{
     font-size:20px
 }
 
-.mainSpecialPage{max-width: 1200px !important;background: #ffffff;}
+.mainSpecialPage{max-width: 1200px !important;background: #f4f4f2;}
 
 .mainBottomFight{  }
 
@@ -5583,8 +5582,9 @@ article:last-child{
 }
 
 .streams{
-    background: #ffffff;
+    background: #f4f4f2;
     float:  left;
+    margin:  2% 0;
     width: 100%;
 }
 
@@ -5952,7 +5952,7 @@ hr{
 }
 
 
-.mainBlock{width: 100%;/* float:  right; */background: #ffffff!important;overflow:  hidden;margin:  0 auto;}
+.mainBlock{width: 100%;/* float:  right; *//* background: #f4f4f2!important; */overflow:  hidden;margin:  0 auto;}
 
 
 .main .block{
@@ -6526,10 +6526,9 @@ a.more{
 .mainBlockFighters{
     margin: 2% auto;
     width: 100%;
-
     overflow:  hidden;
     position:  relative;
-    background: #ffffff;
+    background: #efefef;
     float:  left;
 }
 
@@ -6685,6 +6684,9 @@ a.more{
     height: 26px;
     color: black;
 }
+.bottomArticle article{
+    width:100%
+}
 
 .nameOfWeightCat{
     background: #342f85;
@@ -6693,7 +6695,17 @@ a.more{
     font-size:  20px;
     text-transform: uppercase;
 }
+
+.newsBlueAside{
+    background: #25324b;
+    border: 15px solid #25324b;
+    /* color: white; */
+}
+.newsBlueAside .nameOfAsideRight {color:white; text-align:center}
+.newsBlueAside a{color:white;}
+.newsBlueAside a:hover{color:#b1b1b1;}
 .detailFighters{
     width: 69%;
     float:  left;
+    margin-top:  2%;
 }

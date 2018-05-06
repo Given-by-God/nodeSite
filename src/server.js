@@ -5,38 +5,42 @@ let express = require('express'),
     app = express(),
     path = require('path');
 
-let video = require("./controllers/video");
+
+let video = require("./controllers/video"),
+    db = require('./models/db');
 
 
-let router = express.Router();
-
-router.route('/video').get(video.video);
-
-
-
-
-console.log(video);
-
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 4000;
 // let rootPath = path.join(__dirname,'../');
 
-
-
+//middleWare
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
-
 
 //static path to stylesheets
 app.use('/public',express.static(__dirname + '/public'));
 
 app.use('/img',express.static(__dirname + '/public/img'));
 
-
 app.set('view engine','ejs');
 
-app.get('/news',(req,res) => {
-   res.render('../src/views/news');
-});
+
+//api
+
+app.use('/news',require('./controllers/news'));
+app.use('/news/:d/:m/:y/:id/:titleEu',require('./controllers/detailNews')());
+
+// console.log(require('./controllers/detailNews'));
+
+
+// let test1 = require('./controllers/detailNews');
+
+
+
+
+
+
+app.use('/video',video);
 
 app.get('/event',(req,res) =>
 {

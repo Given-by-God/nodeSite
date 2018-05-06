@@ -7,6 +7,7 @@
 
 </head>
 
+
 <% include ../helpers/header.ejs%>
 
 <body>
@@ -64,20 +65,20 @@
                     <div class="insideFilterBlock">Все подряд</div>
                     <div class="insideFilterBlock">бокс</div>
                     <div class="insideFilterBlock">mma
-                        <!--<select class="form-control">-->
-                        <!--<option>-->
-                        <!--ufc-->
-                        <!--</option>-->
-                        <!--<option>-->
-                        <!--bellator-->
-                        <!--</option>-->
-                        <!--<option>-->
-                        <!--acb-->
-                        <!--</option>-->
-                        <!--<option>-->
-                        <!--m1 global-->
-                        <!--</option>-->
-                        <!--</select>-->
+                        <select class="form-control">
+                        <option>
+                        ufc
+                        </option>
+                        <option>
+                        bellator
+                        </option>
+                        <option>
+                        acb
+                        </option>
+                        <option>
+                        m1 global
+                        </option>
+                        </select>
                     </div>
                     <div class="insideFilterBlock">Анонсы боев</div>
                 </div>
@@ -89,81 +90,37 @@
                     <input  type="search" class="search form-control" placeholder="What are you looking for?"/>
                 </form>
             </div>
-
+            test <%=data[0].id%>
             <div class="bottomArticle">
 
+
+
+                <% for(let i = 0 ; i <= data.length-1 ;i++){%>
                 <article>
                     <div class="articleOnMain">
                         <div class="imageOnMainArticle">
-                            <a href="#">
-                                <img src="/img/khabibMiddle.jpg"
-                                     alt="">
+                            <a href="/news/<%= data[i].data%>/<%= data[i].titleEu%>">
+                                <img src="<%=data[i].img%>"
+                                     alt="<%=data[i].title%>">
                             </a>
                         </div>
 
                         <div class="textOnMainArticle">
                             <div class="dataAndTagMain">
-                                <div class="data">data</div>
-                                <div class="tag">tag</div>
+                                <div class="data"><%-(new Date ((data[i].date))).toLocaleDateString('en-US') %></div>
+                                <div class="tag"><%=data[i].tag%></div>
                             </div>
                             <h2>
-                                <a href="#">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+                                <a href="/news/<%=(new Date ((data[i].date))).toLocaleDateString('en-US') %>/<%=data[i].id%>/<%= data[i].titleEu%>">
+                                    <%=data[i].title%>
                                 </a>
                             </h2>
-
                         </div>
 
                     </div>
                 </article>
-                <article>
-                    <div class="articleOnMain">
-                        <div class="imageOnMainArticle">
-                            <a href="#">
-                                <img src="/img/khabibMiddle.jpg"
-                                     alt="">
-                            </a>
-                        </div>
 
-                        <div class="textOnMainArticle">
-                            <div class="dataAndTagMain">
-                                <div class="data">data</div>
-                                <div class="tag">tag</div>
-                            </div>
-                            <h2>
-                                <a href="#">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
-                                </a>
-                            </h2>
-
-                        </div>
-
-                    </div>
-                </article>
-                <article>
-                    <div class="articleOnMain">
-                        <div class="imageOnMainArticle">
-                            <a href="#">
-                                <img src="/img/khabibMiddle.jpg"
-                                     alt="">
-                            </a>
-                        </div>
-
-                        <div class="textOnMainArticle">
-                            <div class="dataAndTagMain">
-                                <div class="data">data</div>
-                                <div class="tag">tag</div>
-                            </div>
-                            <h2>
-                                <a href="#">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
-                                </a>
-                            </h2>
-
-                        </div>
-
-                    </div>
-                </article>
+                <%}%>
 
 
 
@@ -174,7 +131,6 @@
             <div class="clr"></div>
 
         </main>
-
 
         <aside>
 
@@ -237,7 +193,7 @@
         <div class="clr"></div>
 
 
-        <aside class="onlyNewsRightMenu">
+        <aside class="onlyNewsRightMenu newsBlueAside">
 
             <div class="nameOfAsideRight">
                 <!--<div>Календарь</div>-->
