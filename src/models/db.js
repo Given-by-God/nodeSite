@@ -12,6 +12,7 @@ let connection = mysql.createConnection({
 //connect to db
 connection.connect(err => {
     if(err) throw err;
+    console.log('test');
 });
 
 
