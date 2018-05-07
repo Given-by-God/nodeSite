@@ -9,7 +9,9 @@
 .memesTitle{
     margin: 1%;
 }
-
+.backForStream{
+    background:#f5f4f2;
+}
 
 
 .record{
@@ -43,8 +45,8 @@
 }
 
 .eventFilter .btn-primary{
-    background: #374593;
-    border: 1px solid #162353;
+    /* background: #374593; */
+    /* border: 1px solid #162353; */
 }
 
 
@@ -1154,9 +1156,7 @@ hr{
     }
 }
 
-.mainContent{
-    /* background:white; */
-}
+
 
 .tagAnfDataOnMain{
     width:  100%;
@@ -1754,9 +1754,7 @@ hr{
     }
 }
 
-.mainContent{
-    /* background:white; */
-}
+
 
 body{
 
@@ -2442,11 +2440,11 @@ article:last-child{
 }
 
 .blockVideo{
-    display:  flex;
-    width: 30%;
-    flex-flow: column;
-    min-width: 250px;
-    margin: 1%;
+    /* display:  flex; */
+    /* width: 30%; */*
+    /*flex-flow: column; *!*/
+    /* min-width: 250px; */
+margin: 1%;
 }
 
 .videoImg{}
@@ -3164,7 +3162,7 @@ body{
 .filter{
     overflow:  hidden;
     margin: 0 auto;
-    background: #162353;
+    background: #6175bd;
     text-transform:  uppercase;
     color: #f4f4f2;
     width: 100%;
@@ -3680,9 +3678,6 @@ hr{
     }
 }
 
-.mainContent{
-    /* background:white; */
-}
 
 .tagAnfDataOnMain{
     width:  100%;
@@ -4980,11 +4975,11 @@ article:last-child{
 }
 
 .blockVideo{
-    display:  flex;
-    width: 30%;
-    flex-flow: column;
-    min-width: 250px;
-    margin: 1%;
+    /* display:  flex; */
+    /* width: 30%; */
+    /* flex-flow: column; */
+    /* min-width: 250px; */
+    /* margin: 1%; */
 }
 
 .videoImg{}
@@ -5588,7 +5583,7 @@ article:last-child{
     width: 100%;
 }
 
-table{/* margin: 2% auto 1% auto; */font-size: 21px;text-transform:  uppercase;}
+table{/* margin: 2% auto 1% auto; */font-size: 21px;/* text-transform:  uppercase; */}
 
 @media  only screen and (max-width :600px) {
     .mainContent{
@@ -5948,11 +5943,13 @@ hr{
 }
 
 .mainContent{
-    /* background:white; */
+    /* background: #efefef; */
+    /* height: 675px; */
+    margin:  2% 0;
 }
 
 
-.mainBlock{width: 100%;/* float:  right; *//* background: #f4f4f2!important; */overflow:  hidden;margin:  0 auto;}
+.mainBlock{width: 100%;/* float:  right; *//* background: #f4f4f2!important; */overflow:  hidden;margin: 2% auto 9% auto;}
 
 
 .main .block{
@@ -6363,10 +6360,11 @@ a.more{
 
 .blockVideo{
     display:  flex;
-    width: 30%;
+    width: 23%;
     flex-flow: column;
-    min-width: 250px;
+    /* min-width: 250px; */
     margin: 1%;
+    /* flex: 1 1 16%; */
 }
 
 .videoImg{}
@@ -6701,11 +6699,23 @@ a.more{
     border: 15px solid #25324b;
     /* color: white; */
 }
-.newsBlueAside .nameOfAsideRight {color:white; text-align:center}
+.newsBlueAside .nameOfAsideRight {
+    color:white; text-align:center
+}
 .newsBlueAside a{color:white;}
 .newsBlueAside a:hover{color:#b1b1b1;}
 .detailFighters{
     width: 69%;
     float:  left;
     margin-top:  2%;
+}
+.filterFighters{
+    display:  flex;
+    justify-content: space-around;
+    margin:  2% 0;
+    text-transform:  uppercase;
+}
+.weightInList{
+    display:  flex;
+    justify-content:  start;
 }
